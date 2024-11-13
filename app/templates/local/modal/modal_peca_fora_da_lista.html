@@ -1,0 +1,61 @@
+<div class="modal fade" id="modalPecaForaDaLista" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalPecaForaDaListaLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modalPecaForaDaListaLabel">Adicionar Peça fora da lista para o {{local}}</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="POST">
+                <div class="alert alert-warning" role="alert">
+                    <strong><i class="fa-solid fa-triangle-exclamation"></i> Atenção: </strong>
+                    <small>Antes de adicionar o codigo da peça, verifique se realmente essa peça está fora da lista de <strong>{{local}}</strong>.</small>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 mb-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <label for="">Código da Peça</label>
+                            <i class="fa-solid fa-circle-exclamation" style="color: #ff0000;font-size: 12px;"></i>
+                        </div>
+                        <input class="form-control" type="number" required>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <label for="">Descrição da Peça</label>
+                        </div>
+                        <input class="form-control" type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 mb-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <label for="">Estante</label>
+                            <i class="fa-solid fa-circle-exclamation" style="color: #ff0000;font-size: 12px;"></i>
+                        </div>
+                        <select class="form-control" name="" id="" required>
+                            <option value="" selected hidden disabled></option>
+                            {% for estante in estantes %}
+                                <option value="{{ estante }}">{{ estante }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <label for="">Quantidade</label>
+                            <i class="fa-solid fa-circle-exclamation" style="color: #ff0000;font-size: 12px;"></i>
+                        </div>
+                        <input class="form-control" type="number" required>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between modal-footer">
+                <div class="d-flex align-items-center" style="gap: 5px;">
+                    <i class="fa-solid fa-circle-exclamation" style="color: #ff0000; font-size: 12px;"></i>
+                    <code><small>Campo obrigatório</small></code>
+                </div>
+                <button type="submit" class="btn btn-success">Adicionar</button>
+            </div>              
+        </form>
+      </div>
+    </div>
+</div>

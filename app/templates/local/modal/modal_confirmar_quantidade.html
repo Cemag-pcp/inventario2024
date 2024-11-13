@@ -1,0 +1,37 @@
+<div class="modal fade" id="modalConfirmarQuantidade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalConfirmarQuantidadeLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modalConfirmarQuantidadeLabel">Deseja enviar essas informações?</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Confira novamente se a quantidade inserida está correta</p>
+            <div class="row">
+                <div class="col-sm-4 mb-2 d-none">
+                  <label for="idLocal">Id</label>
+                  <input class="form-control" type="text" name="idLocal" id="idLocal" disabled>
+                </div>
+                <div class="col-sm-4 mb-2">
+                    <label for="">Código da Peça</label>
+                    <input class="form-control" type="text" name="peca" id="peca" disabled>
+                </div>
+                <div class="col-sm-4 mb-2">
+                    <label for="estante">Estante</label>
+                    <input class="form-control" type="text" name="estante" id="estante" disabled>
+                </div>
+                <div class="col-sm-4 mb-2">
+                    <label for="quantidade">Quantidade</label>
+                    <input class="form-control" type="number" name="quantidade" id="quantidade" disabled>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" id="confirmarInventario" type="button">
+            <span class="spinner-border spinner-border-sm d-none" id="spinner-button" aria-hidden="true"></span>
+            <span role="status">Confirmar</span>
+          </button>
+        </div>
+      </div>
+    </div>
+</div>

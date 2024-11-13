@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block title %}Lista de Peças{% endblock %}
+
+{% block content %}
+    <main class="container mt-4">
+        <div class="d-flex justify-content-between">
+            <h4>Lista de Peças</h4><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPecaForaDaLista">Peça fora da lista</button>
+        </div>
+
+        <div class="d-flex mt-3 mb-4 gap-3 justify-content-end">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                <input type="text" id="filtroPeca" class="form-control mb-2" placeholder="Filtrar por Peça" style="font-size: 14px;">
+                <input type="text" id="filtroEstante" class="form-control mb-2" placeholder="Filtrar por Estante" style="font-size: 14px;">
+            </div>
+        </div>
+
+        <table class="table table-bordered mt-4" style="font-size: 14px;">
+            <thead>
+                <tr>
+                    <th>Peça</th>
+                    <th>Estante</th>
+                    <th>Quantidade</th>
+                    <th>Enviar</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaPecas">
+                {% for peca in pecas %}
+                    <tr>
+                        <td class="idLocalPeca d-none" data-id="{{ peca.local.id }}">{{ peca.local.id }}</td>
+                        <td><span class="codigoDescricaoPeca">{{ peca.codigo }}</span> - {{ peca.descricao }}</td>
+                        <td class="estantePeca">{{ peca.local.estante }}</td>
+                        <td class="rowQuantidade"><input class="form-control quantidadePeca" type="number" placeholder="Preencha a quantidade..." style="font-size: 14px;"></td>
+                        <td class="rowButton"><button class="btn btn-success openConfirmation"  style="font-size: 14px;" data-bs-toggle="modal" data-bs-target="#modalConfirmarQuantidade" disabled>Enviar</button></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </main>
+
+    {% include 'local/modal/modal_confirmar_quantidade.html' %}
+
+    {% include 'local/modal/modal_peca_fora_da_lista.html' %}
+
+{% endblock %}
+
+{% block scripts %}
+
+<script src="/static/js/lista_pecas/filtro.js"></script>
+<script src="/static/js/envio_inventario/post_inventario.js"></script>
+
+<script>
+    document.querySelectorAll('.openConfirmation').forEach(button => {
+        button.addEventListener('click', (event) => {
+            document.getElementById('confirmarInventario').disabled = false;
+            document.getElementById('spinner-button').classList.add('d-none');
+
+            const row = event.target.closest('tr');
+
+            // Campos da tabela 
+            const idLocalPeca = row.querySelector('.idLocalPeca').innerText;
+            const codigoDescricao = row.querySelector('.codigoDescricaoPeca').innerText;
+            const estantePeca = row.querySelector('.estantePeca').innerText;
+            const quantidadePeca = row.querySelector('.quantidadePeca').value;
+
+            // Input do modal
+            document.getElementById('idLocal').value = idLocalPeca;
+            document.getElementById('peca').value = codigoDescricao;
+            document.getElementById('estante').value = estantePeca;
+            document.getElementById('quantidade').value = quantidadePeca; 
+        })
+    })
+
+    document.querySelectorAll('.quantidadePeca').forEach(input => {
+        input.addEventListener('input', (event) => {
+            const row = event.target.closest('tr');
+            const button = row.querySelector('.openConfirmation');
+
+            event.target.value ? button.disabled = false : button.disabled = true;
+        })
+    })
+</script>
+
+{% endblock %}
+
