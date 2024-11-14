@@ -1,4 +1,4 @@
-<div class="modal fade" id="modalPecaForaDaLista" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalPecaForaDaListaLabel">
+<div class="modal fade" id="modalPecaForaDaLista" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -6,34 +6,36 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <form action="POST">
+            <form id="foraDaListaForm">
                 <div class="alert alert-warning" role="alert">
                     <strong><i class="fa-solid fa-triangle-exclamation"></i> Atenção: </strong>
                     <small>Antes de adicionar o codigo da peça, verifique se realmente essa peça está fora da lista de <strong>{{local}}</strong>.</small>
                 </div>
                 <div class="row">
                     <div class="col-sm-6 mb-2">
+                        <input id="localNome" class="d-none form-control" type="text" value="{{local}}">
+
                         <div class="d-flex justify-content-between align-items-center">
-                            <label for="">Código da Peça</label>
+                            <label for="codigoPecaForaLista">Código da Peça</label>
                             <i class="fa-solid fa-circle-exclamation" style="color: #ff0000;font-size: 12px;"></i>
                         </div>
-                        <input class="form-control" type="number" required>
+                        <input id="codigoPecaForaLista" name="codigoPecaForaLista" class="form-control" type="text" required>
                     </div>
                     <div class="col-sm-6 mb-2">
                         <div class="d-flex justify-content-between align-items-center">
-                            <label for="">Descrição da Peça</label>
+                            <label for="descricaoPecaForaLista">Descrição da Peça</label>
                         </div>
-                        <input class="form-control" type="text">
+                        <input id="descricaoPecaForaLista" name="descricaoPecaForaLista" class="form-control" type="text">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-6 mb-2">
                         <div class="d-flex justify-content-between align-items-center">
-                            <label for="">Estante</label>
+                            <label for="estantePecaForaLista">Estante</label>
                             <i class="fa-solid fa-circle-exclamation" style="color: #ff0000;font-size: 12px;"></i>
                         </div>
-                        <select class="form-control" name="" id="" required>
-                            <option value="" selected hidden disabled></option>
+                        <select class="form-control" name="estantePecaForaLista" id="estantePecaForaLista" required>
+                                <option value="" selected hidden disabled></option>
                             {% for estante in estantes %}
                                 <option value="{{ estante }}">{{ estante }}</option>
                             {% endfor %}
@@ -41,21 +43,24 @@
                     </div>
                     <div class="col-sm-6 mb-2">
                         <div class="d-flex justify-content-between align-items-center">
-                            <label for="">Quantidade</label>
+                            <label for="quantidadePecaForaLista">Quantidade</label>
                             <i class="fa-solid fa-circle-exclamation" style="color: #ff0000;font-size: 12px;"></i>
                         </div>
-                        <input class="form-control" type="number" required>
+                        <input id="quantidadePecaForaLista" name="quantidadePecaForaLista" class="form-control" step=".01" min="0" type="number" required>
                     </div>
                 </div>
-            </div>
             <div class="d-flex justify-content-between modal-footer">
                 <div class="d-flex align-items-center" style="gap: 5px;">
                     <i class="fa-solid fa-circle-exclamation" style="color: #ff0000; font-size: 12px;"></i>
                     <code><small>Campo obrigatório</small></code>
                 </div>
-                <button type="submit" class="btn btn-success">Adicionar</button>
+                <button id="addForaLista" class="btn btn-success" type="submit">
+                    <span class="spinner-button-fora-lista spinner-border spinner-border-sm d-none"></span>
+                    <span role="status">Adicionar</span>
+                </button>
             </div>              
         </form>
       </div>
+    </div>
     </div>
 </div>

@@ -5,33 +5,38 @@
           <h1 class="modal-title fs-5" id="modalConfirmarQuantidadeLabel">Deseja enviar essas informações?</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
-          <p>Confira novamente se a quantidade inserida está correta</p>
-            <div class="row">
-                <div class="col-sm-4 mb-2 d-none">
-                  <label for="idLocal">Id</label>
-                  <input class="form-control" type="text" name="idLocal" id="idLocal" disabled>
+        <form id="meuFormulario">
+          <div class="modal-body">
+                <div class="alert alert-warning" role="alert">
+                  <strong><i class="fa-solid fa-triangle-exclamation"></i> Atenção: </strong>
+                  <small>Confira novamente se a quantidade inserida está correta.</small>
                 </div>
-                <div class="col-sm-4 mb-2">
-                    <label for="">Código da Peça</label>
-                    <input class="form-control" type="text" name="peca" id="peca" disabled>
+                <div class="row">
+                    <div class="col-sm-4 mb-2 d-none">
+                      <label for="idLocal">Id</label>
+                      <input class="form-control" type="text" name="idLocal" id="idLocal" style="background-color: #e9ecef;" required readonly>
+                    </div>
+                    <div class="col-sm-4 mb-2">
+                        <label for="">Código da Peça</label>
+                        <input class="form-control" type="text" name="peca" id="peca" style="background-color: #e9ecef;" required readonly>
+                    </div>
+                    <div class="col-sm-4 mb-2">
+                        <label for="estante">Estante</label>
+                        <input class="form-control" type="text" name="estante" id="estante" style="background-color: #e9ecef;" required readonly>
+                    </div>
+                    <div class="col-sm-4 mb-2">
+                        <label for="quantidade">Quantidade</label>
+                        <input class="form-control" type="number" name="quantidade" step=".01" min="0" id="quantidade" style="background-color: #e9ecef;" required readonly>
+                    </div>
                 </div>
-                <div class="col-sm-4 mb-2">
-                    <label for="estante">Estante</label>
-                    <input class="form-control" type="text" name="estante" id="estante" disabled>
-                </div>
-                <div class="col-sm-4 mb-2">
-                    <label for="quantidade">Quantidade</label>
-                    <input class="form-control" type="number" name="quantidade" id="quantidade" disabled>
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" id="confirmarInventario" type="button">
-            <span class="spinner-border spinner-border-sm d-none" id="spinner-button" aria-hidden="true"></span>
-            <span role="status">Confirmar</span>
-          </button>
-        </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" id="confirmarInventario" type="submit">
+              <span class="spinner-border spinner-border-sm d-none" id="spinner-button"></span>
+              <span role="status">Confirmar</span>
+            </button>
+          </div>
+        </form>
       </div>
     </div>
 </div>

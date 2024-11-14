@@ -5,7 +5,7 @@
 {% block content %}
     <main class="container mt-4">
         <div class="d-flex justify-content-between">
-            <h4>Lista de Peças</h4><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPecaForaDaLista">Peça fora da lista</button>
+            <h4>Lista de Peças</h4><button class="btn btn-primary" id="openModalButton" data-bs-toggle="modal" data-bs-target="#modalPecaForaDaLista">Peça fora da lista</button>
         </div>
 
         <div class="d-flex mt-3 mb-4 gap-3 justify-content-end">
@@ -47,39 +47,10 @@
 {% block scripts %}
 
 <script src="/static/js/lista_pecas/filtro.js"></script>
-<script src="/static/js/envio_inventario/post_inventario.js"></script>
-
-<script>
-    document.querySelectorAll('.openConfirmation').forEach(button => {
-        button.addEventListener('click', (event) => {
-            document.getElementById('confirmarInventario').disabled = false;
-            document.getElementById('spinner-button').classList.add('d-none');
-
-            const row = event.target.closest('tr');
-
-            // Campos da tabela 
-            const idLocalPeca = row.querySelector('.idLocalPeca').innerText;
-            const codigoDescricao = row.querySelector('.codigoDescricaoPeca').innerText;
-            const estantePeca = row.querySelector('.estantePeca').innerText;
-            const quantidadePeca = row.querySelector('.quantidadePeca').value;
-
-            // Input do modal
-            document.getElementById('idLocal').value = idLocalPeca;
-            document.getElementById('peca').value = codigoDescricao;
-            document.getElementById('estante').value = estantePeca;
-            document.getElementById('quantidade').value = quantidadePeca; 
-        })
-    })
-
-    document.querySelectorAll('.quantidadePeca').forEach(input => {
-        input.addEventListener('input', (event) => {
-            const row = event.target.closest('tr');
-            const button = row.querySelector('.openConfirmation');
-
-            event.target.value ? button.disabled = false : button.disabled = true;
-        })
-    })
-</script>
+<script src="/static/js/fora_da_lista/post_fora_lista.js"></script>
+<script src="/static/js/fora_da_lista/reset_form.js"></script>
+<script src="/static/js/inventario/post_inventario.js"></script>
+<script src="/static/js/inventario/modal_confirmacao.js"></script>
 
 {% endblock %}
 

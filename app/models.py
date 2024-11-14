@@ -20,7 +20,8 @@ class Peca(db.Model):
     descricao = db.Column(db.String(255), nullable=False)
     local_id = db.Column(db.Integer, db.ForeignKey('locais.id'), nullable=False) 
     quantidade = db.relationship('Quantidade', backref='peca', lazy=True)
-    quantidade_sistema = db.Column(db.Integer, nullable=False)
+    quantidade_sistema = db.Column(db.Integer, nullable=True)
+    peca_fora_lista = db.Column(db.Boolean, default=False)
 
     def __repr__(self):
         return f'<Peça {self.codigo}, Quantidade {self.quantidade.quantidade if self.quantidade else "não definida"} no Local {self.local.nome}>'

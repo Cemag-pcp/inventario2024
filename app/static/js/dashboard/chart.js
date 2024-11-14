@@ -1,7 +1,7 @@
 // Função para carregar os dados da API e renderizar o gráfico
 async function loadChartData() {
     try {
-        const response = await fetch('/api/pecas-contagem'); // Chama a rota Flask
+        const response = await fetch('/api/dashboard'); // Chama a rota Flask
         const data = await response.json(); // Converte a resposta para JSON
         
         // Configura os dados do gráfico

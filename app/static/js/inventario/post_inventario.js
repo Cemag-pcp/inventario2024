@@ -20,10 +20,11 @@ document.getElementById('confirmarInventario').addEventListener('click', async f
             })
         });
 
+        const json = await response.json();
         // Verifica a resposta do servidor
         if (response.ok) {
             Swal.fire({
-                title: "Dados enviados com sucesso!",
+                title: `${json.message}!`,
                 icon: "success",
                 showConfirmButton: false,
                 allowOutsideClick: false,
@@ -67,7 +68,7 @@ document.getElementById('confirmarInventario').addEventListener('click', async f
             const timerInMilliseconds = seconds * 1000;  // Convertendo para milissegundos
 
             Swal.fire({
-                title: "Erro ao enviar os dados!",
+                title: `${json.message}!`,
                 icon: "error",
                 html: `Página vai carregar sozinha em <b>${seconds}</b> segundos`,
                 timer: timerInMilliseconds,
