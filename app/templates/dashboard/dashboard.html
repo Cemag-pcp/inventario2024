@@ -4,16 +4,40 @@
 
 {% block content %}
     <main class="container mt-4">
-        <div style="width: 50%; max-width: 300px; margin: auto;">
-            <canvas id="quantidadeChart"></canvas>
+        <div class="row">
+
+        </div>
+        <h6 class="mb-4" style="margin-top: 100px;">Comparação de Quantidades</h6>
+        <!-- Tabela para exibição dos dados -->
+        <div class="col-12 mb-4" style="width: 100%; overflow-x: auto;">
+            <table class="table table-striped table-hover" id="tabela-pecas">
+                <thead>
+                    <tr>
+                        <th>Almoxarifado</th>
+                        <th>Local</th>
+                        <th>Código</th>
+                        <th>Descrição</th>
+                        <th>Peça fora da lista</th>
+                        <th>Quantidade Sistema</th>
+                        <th>Quantidade Real</th>
+                        <th>Diferença</th>
+                    </tr>
+                </thead>
+                <tbody id="pecas-lista">
+                    <!-- Linhas da tabela serão preenchidas via jQuery -->
+                </tbody>
+            </table>
         </div>
     </main>
 {% endblock %}
 
 {% block scripts %}
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="/static/js/dashboard/chart.js"></script>
+<script src="/static/js/dashboard/table.js"></script>
 
 {% endblock %}
 

@@ -3,20 +3,22 @@
 {% block title %}Lista de Peças{% endblock %}
 
 {% block content %}
-    <main class="container mt-4">
-        <div class="d-flex justify-content-between">
-            <h4>Lista de Peças</h4><button class="btn btn-primary" id="openModalButton" data-bs-toggle="modal" data-bs-target="#modalPecaForaDaLista">Peça fora da lista</button>
-        </div>
+<main class="container mt-4">
+    <div class="d-flex justify-content-between">
+        <h4>Lista de Peças - {{local}}</h4>
+        <button class="btn btn-primary" id="openModalButton" data-bs-toggle="modal" data-bs-target="#modalPecaForaDaLista">Peça fora da lista</button>
+    </div>
 
-        <div class="d-flex mt-3 mb-4 gap-3 justify-content-end">
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
-                <input type="text" id="filtroPeca" class="form-control mb-2" placeholder="Filtrar por Peça" style="font-size: 14px;">
-                <input type="text" id="filtroEstante" class="form-control mb-2" placeholder="Filtrar por Estante" style="font-size: 14px;">
-            </div>
+    <div class="d-flex mt-3 mb-4 gap-3 justify-content-end">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
+            <input type="text" id="filtroPeca" class="form-control mb-2" placeholder="Filtrar por Peça" style="font-size: 14px;">
+            <input type="text" id="filtroEstante" class="form-control mb-2" placeholder="Filtrar por Estante" style="font-size: 14px;">
         </div>
+    </div>
 
+    <div style="max-height: 427px; overflow-y: auto;">
         <table class="table table-bordered mt-4" style="font-size: 14px;">
-            <thead>
+            <thead style="position: sticky; top: -1px; background-color: #fff; z-index: 1;">
                 <tr>
                     <th>Peça</th>
                     <th>Estante</th>
@@ -25,18 +27,31 @@
                 </tr>
             </thead>
             <tbody id="tabelaPecas">
-                {% for peca in pecas %}
+                {% if pecas %}
+                    {% for peca in pecas %}
+                        <tr>
+                            <td class="idLocalPeca d-none" data-id="{{ peca.local.id }}">{{ peca.local.id }}</td>
+                            {% if peca.descricao != '' %}
+                            <td data-bs-toggle="tooltip" title="{{ peca.codigo }} - {{ peca.descricao }}">
+                                <span class="codigoDescricaoPeca">{{ peca.codigo }}</span> - {{ peca.descricao }}
+                            </td>
+                            {% else %}
+                            <td data-bs-toggle="tooltip" title="{{ peca.codigo }}"><span class="codigoDescricaoPeca">{{ peca.codigo }}</span></td>
+                            {% endif %}
+                            <td class="estantePeca">{{ peca.local.estante }}</td>
+                            <td class="rowQuantidade"><input class="form-control quantidadePeca" type="number" placeholder="Quantidade..." style="font-size: 14px;"></td>
+                            <td class="rowButton"><button class="btn btn-success openConfirmation"  style="font-size: 14px;" data-bs-toggle="modal" data-bs-target="#modalConfirmarQuantidade" disabled>Enviar</button></td>
+                        </tr>
+                    {% endfor %}
+                {% else %}
                     <tr>
-                        <td class="idLocalPeca d-none" data-id="{{ peca.local.id }}">{{ peca.local.id }}</td>
-                        <td><span class="codigoDescricaoPeca">{{ peca.codigo }}</span> - {{ peca.descricao }}</td>
-                        <td class="estantePeca">{{ peca.local.estante }}</td>
-                        <td class="rowQuantidade"><input class="form-control quantidadePeca" type="number" placeholder="Preencha a quantidade..." style="font-size: 14px;"></td>
-                        <td class="rowButton"><button class="btn btn-success openConfirmation"  style="font-size: 14px;" data-bs-toggle="modal" data-bs-target="#modalConfirmarQuantidade" disabled>Enviar</button></td>
+                        <td colspan="5" class="text-center" style="font-size: 20px;">Todas as peças foram preenchidas nesse local <i class="fa fa-check" style="font-size: 20px; color: #a5dc86;"></i></td>
                     </tr>
-                {% endfor %}
+                {% endif %}
             </tbody>
         </table>
-    </main>
+    </div>
+</main>
 
     {% include 'local/modal/modal_confirmar_quantidade.html' %}
 
@@ -51,6 +66,13 @@
 <script src="/static/js/fora_da_lista/reset_form.js"></script>
 <script src="/static/js/inventario/post_inventario.js"></script>
 <script src="/static/js/inventario/modal_confirmacao.js"></script>
+<script>
+    // Ativar tooltips em todos os elementos com o atributo data-bs-toggle="tooltip"
+    var tooltipTriggerList = Array.from(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    });
+</script>
 
 {% endblock %}
 
