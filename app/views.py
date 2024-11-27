@@ -1,7 +1,6 @@
 from flask import render_template, request, jsonify
 from . import db
 from app.models import Local,Peca, Quantidade
-
 from flask import current_app as app
 
 @app.route("/", methods=['GET'])
@@ -76,84 +75,6 @@ def fora_da_lista():
     db.session.commit()
 
     return jsonify({'message': 'Peça fora da lista adicionada com sucesso'}), 201
-
-# @app.route("/deletar_quantidades", methods=['GET'])
-# def deletar_quantidades():
-#     # Deletando as quantidades com IDs entre 1 e 11
-#     Quantidade.query.filter(Quantidade.id.between(1, 100)).delete(synchronize_session=False)
-    
-#     # Commitando as mudanças no banco de dados
-#     db.session.commit()
-
-#     return jsonify({'message': 'Quantidades deletadas com sucesso'}), 200
-
-# @app.route('/mock-data', methods=['GET'])
-# def mock_data():
-#     # Dados dos Locais e almoxarifados com diferentes estantes
-#     locais = [
-#         {"nome": "Estamparia", "estante": "A1", "almoxarifado": "Estamparia"},
-#         {"nome": "Estamparia", "estante": "A2", "almoxarifado": "Estamparia"},
-#         {"nome": "Estamparia", "estante": "A3", "almoxarifado": "Estamparia"},
-#         {"nome": "Corte", "estante": "B1", "almoxarifado": "Corte"},
-#         {"nome": "Corte", "estante": "B2", "almoxarifado": "Corte"},
-#         {"nome": "Eixo", "estante": "C1", "almoxarifado": "Montagem"},
-#         {"nome": "Eixo", "estante": "C2", "almoxarifado": "Montagem"},
-#         {"nome": "Chassi", "estante": "D1", "almoxarifado": "Montagem"},
-#         {"nome": "Chassi", "estante": "D2", "almoxarifado": "Montagem"},
-#     ]
-
-#     # Dados das Peças com referência aos locais e estantes específicas
-#     pecas = [
-#         {"codigo": "P001", "descricao": "Peça A1 - Estamparia", "local_nome": "Estamparia", "estante": "A1", "quantidade_sistema": 100},
-#         {"codigo": "P001", "descricao": "Peça A1 - Estamparia", "local_nome": "Estamparia", "estante": "A2", "quantidade_sistema": 120},
-#         {"codigo": "P002", "descricao": "Peça A2 - Estamparia", "local_nome": "Estamparia", "estante": "A2", "quantidade_sistema": 150},
-#         {"codigo": "P002", "descricao": "Peça A2 - Estamparia", "local_nome": "Estamparia", "estante": "A3", "quantidade_sistema": 124},
-#         {"codigo": "P009", "descricao": "Peça A3 - Estamparia", "local_nome": "Estamparia", "estante": "A3", "quantidade_sistema": 132},
-#         {"codigo": "P003", "descricao": "Peça B1 - Corte", "local_nome": "Corte", "estante": "B1", "quantidade_sistema": 240},
-#         {"codigo": "P004", "descricao": "Peça B2 - Corte", "local_nome": "Corte", "estante": "B2", "quantidade_sistema": 260},
-#         {"codigo": "P005", "descricao": "Peça C1 - Eixo", "local_nome": "Eixo", "estante": "C1", "quantidade_sistema": 150},
-#         {"codigo": "P006", "descricao": "Peça C2 - Eixo", "local_nome": "Eixo", "estante": "C2", "quantidade_sistema": 170},
-#         {"codigo": "P007", "descricao": "Peça D1 - Chassi", "local_nome": "Chassi", "estante": "D1", "quantidade_sistema": 300},
-#         {"codigo": "P008", "descricao": "Peça D2 - Chassi", "local_nome": "Chassi", "estante": "D2", "quantidade_sistema": 320},
-#     ]
-
-#     # Inserção dos Locais
-#     for local_data in locais:
-#         local = Local(
-#             nome=local_data["nome"],
-#             estante=local_data["estante"],
-#             almoxarifado=local_data["almoxarifado"]
-#         )
-#         db.session.add(local)
-
-#     db.session.commit()
-
-#     # Inserção das Peças e Quantidades
-#     for peca_data in pecas:
-#         # Filtragem do local com nome e estante correspondentes
-#         local = Local.query.filter_by(nome=peca_data["local_nome"], estante=peca_data["estante"]).first()
-#         if local:
-#             peca = Peca(
-#                 codigo=peca_data["codigo"],
-#                 descricao=peca_data["descricao"],
-#                 local=local,
-#                 quantidade_sistema=peca_data["quantidade_sistema"]
-#             )
-#             db.session.add(peca)
-#             db.session.commit()
-
-#             # Adicionando quantidade inicial
-#             quantidade = Quantidade(
-#                 quantidade=peca_data["quantidade_sistema"],
-#                 peca=peca
-#             )
-#             db.session.add(quantidade)
-
-#     db.session.commit()
-
-#     return jsonify({
-#         "message": "Novos locais e peças adicionados com sucesso!"
-#     })
 
 @app.route("/api/inventario", methods=['POST'])
 def quantidadePecas():

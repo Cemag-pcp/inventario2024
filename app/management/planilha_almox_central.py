@@ -15,6 +15,7 @@ def carregar_dados_csv(caminho_csv):
             # Extrair valores das colunas
             local_nome = row['Local']
             celula = row['Célula'] if pd.notna(row['Célula']) else ''
+            local_nome = f"{local_nome}-{celula}".strip('-')
             posicao = row['Posição'] if pd.notna(row['Posição']) else ''
             estante = f"{celula}-{posicao}".strip('-')  # Evita '-' isolado quando uma das partes está vazia
             almoxarifado = 'Central'
@@ -37,10 +38,10 @@ def carregar_dados_csv(caminho_csv):
             
             descricao = row['Item'] if pd.notna(row['Item']) else ''
             quantidade_sistema = (
-                float(row['Contagem'].replace('.', '').replace(',', '.')) 
-                if pd.notna(row['Contagem']) and isinstance(row['Contagem'], str) 
-                else float(row['Contagem']) 
-                if pd.notna(row['Contagem']) 
+                float(row['Saldo'].replace('.', '').replace(',', '.')) 
+                if pd.notna(row['Saldo']) and isinstance(row['Saldo'], str) 
+                else float(row['Saldo']) 
+                if pd.notna(row['Saldo']) 
                 else 0.0
             )
             peca_fora_lista = False
