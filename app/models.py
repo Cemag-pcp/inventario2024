@@ -5,8 +5,8 @@ class Local(db.Model):
     __table_args__ = {'schema': 'inventario_2024'}
 
     id = db.Column(db.Integer, primary_key=True)
-    nome = db.Column(db.String(60), nullable=False)
-    estante = db.Column(db.String(100), nullable=False)
+    nome = db.Column(db.String(255), nullable=False)
+    estante = db.Column(db.String(150), nullable=False)
     pecas = db.relationship('Peca', backref='local', lazy=True, cascade='all, delete-orphan')
     almoxarifado = db.Column(db.String(100), nullable=False)
 

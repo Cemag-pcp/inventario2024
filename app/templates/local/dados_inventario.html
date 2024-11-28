@@ -12,7 +12,15 @@
     <div class="d-flex mt-3 mb-4 gap-3 justify-content-end">
         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
             <input type="text" id="filtroPeca" class="form-control mb-2" placeholder="Filtrar por Peça" style="font-size: 14px;">
-            <input type="text" id="filtroEstante" class="form-control mb-2" placeholder="Filtrar por Estante" style="font-size: 14px;">
+            <div class="d-flex">
+                <select id="filtroEstante" class="form-control mb-2" style="font-size: 14px;">
+                    <option value="">Selecione uma Peça</option>
+                    {% for estante in estantes %}
+                        <option value="{{ estante }}">{{ estante }}</option>
+                    {% endfor %}
+                </select>
+                <button id="btnFiltrar" class="btn btn-primary mb-2" style="font-size: 10px; border-radius: 0px 10px 10px 0px;"><i class="fa-solid fa-search" ></i></button> <!-- Botão para aplicar os filtros -->
+            </div>
         </div>
     </div>
 
@@ -30,7 +38,7 @@
                 {% if pecas %}
                     {% for peca in pecas %}
                         <tr>
-                            <td class="idLocalPeca d-none" data-id="{{ peca.local.id }}">{{ peca.local.id }}</td>
+                            <td class="idLocalPeca d-none" data-id="{{ peca.local_id }}">{{ peca.local_id }}</td>
                             {% if peca.descricao != '' %}
                             <td data-bs-toggle="tooltip" title="{{ peca.codigo }} - {{ peca.descricao }}">
                                 <span class="codigoDescricaoPeca">{{ peca.codigo }}</span> - {{ peca.descricao }}
@@ -38,7 +46,7 @@
                             {% else %}
                             <td data-bs-toggle="tooltip" title="{{ peca.codigo }}"><span class="codigoDescricaoPeca">{{ peca.codigo }}</span></td>
                             {% endif %}
-                            <td class="estantePeca">{{ peca.local.estante }}</td>
+                            <td class="estantePeca">{{ peca.local_estante }}</td>
                             <td class="rowQuantidade"><input class="form-control quantidadePeca" type="number" placeholder="Quantidade..." style="font-size: 14px;"></td>
                             <td class="rowButton"><button class="btn btn-success openConfirmation"  style="font-size: 14px;" data-bs-toggle="modal" data-bs-target="#modalConfirmarQuantidade" disabled>Enviar</button></td>
                         </tr>
@@ -61,11 +69,28 @@
 
 {% block scripts %}
 
+<!-- Incluindo JS do Select2 -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
 <script src="/static/js/lista_pecas/filtro.js"></script>
 <script src="/static/js/fora_da_lista/post_fora_lista.js"></script>
 <script src="/static/js/fora_da_lista/reset_form.js"></script>
 <script src="/static/js/inventario/post_inventario.js"></script>
 <script src="/static/js/inventario/modal_confirmacao.js"></script>
+
+<script>
+    // Inicializando o Select2 no filtro
+    $(document).ready(function() {
+        $('#filtroEstante').select2({
+            placeholder: "Filtrar por Estante",
+            allowClear: true,
+            width: '100%' // Garantir que o select ocupe toda a largura disponível
+        });
+    });
+
+</script>
+
 
 {% endblock %}
 

@@ -1,6 +1,7 @@
 from flask import render_template, request, jsonify
 from . import db
 from app.models import Local,Peca, Quantidade
+from sqlalchemy import text  # Importar a função 'text' para executar SQL puro
 from flask import current_app as app
 
 @app.route("/", methods=['GET'])
@@ -10,17 +11,44 @@ def index():
 
 @app.route("/inventario/<local_nome>", methods=['GET'])
 def local(local_nome):
-
     # Filtrando estante no local especificado
-    estantes = db.session.query(Local.estante).filter(Local.nome == local_nome).distinct().all()
+    query_estantes = text('''
+        SELECT DISTINCT estante
+        FROM inventario_2024.locais
+        WHERE nome = :local_nome
+        ORDER by estante             
+    ''')
+    result_estantes = db.session.execute(query_estantes, {'local_nome': local_nome})
+    estantes = [row[0] for row in result_estantes.fetchall()]
 
-    # Convertendo o resultado para uma lista de estantes
-    estantes = [estante[0] for estante in estantes] # estantes são várias tuplas, por isso se deve pegar na posição 0, ex: ('COR-D41',)
-
-    pecas = Peca.query.join(Local).outerjoin(Quantidade).filter(
-        Local.nome == local_nome, Quantidade.id == None, Peca.peca_fora_lista == False).all()
+    # Consultando as peças diretamente com SQL puro
+    query_pecas = text('''
+        SELECT peca.id, peca.codigo, peca.descricao, peca.local_id, local.estante
+        FROM inventario_2024.pecas AS peca
+        JOIN inventario_2024.locais AS local ON peca.local_id = local.id
+        LEFT JOIN inventario_2024.quantidades AS quant ON peca.id = quant.peca_id
+        WHERE local.nome = :local_nome
+        AND quant.id IS NULL
+        AND peca.peca_fora_lista = FALSE
+    ''')
     
-    return render_template("local/dados_inventario.html", pecas=pecas,estantes=estantes ,local=local_nome)
+    result_pecas = db.session.execute(query_pecas, {'local_nome': local_nome})
+    pecas = result_pecas.fetchall()
+
+    # Convertendo os resultados para um formato de dicionário
+    pecas_dict = [
+        {
+            "id": peca.id,
+            "codigo": peca.codigo,
+            "descricao": peca.descricao,
+            "local_id": peca.local_id,
+            "local_estante": peca.estante
+        }
+        for peca in pecas
+    ]
+    
+    # Retornando os dados ao template
+    return render_template("local/dados_inventario.html", pecas=pecas_dict, estantes=estantes, local=local_nome)
 
 @app.route("/dashboard", methods=['GET'])
 def dashboard():
@@ -38,7 +66,7 @@ def fora_da_lista():
     peca_fora_lista = True
 
     # Verificação dos campos obrigatórios
-    if not all([localNome, codigoPecaForaLista, estantePecaForaLista, quantidadePecaForaLista]):
+    if not all([localNome, codigoPecaForaLista, quantidadePecaForaLista]):
         print("Preencha todos os campos obrigatórios")
         print(data)
         return jsonify({'message': 'Preencha todos os campos obrigatórios'}), 400
@@ -81,10 +109,9 @@ def quantidadePecas():
     data = request.get_json()
     idLocal = data.get('id')
     peca = data.get('peca')
-    estante = data.get('estante')
     quantidade = data.get('quantidade')
     
-    if not all([idLocal, peca, estante, quantidade]):
+    if not all([idLocal, peca, quantidade]):
         print("Algum campo vazio")
         return jsonify({'message': 'Todos os campos são obrigatórios e devem ser preenchidos'}), 400
     
