@@ -1,3 +1,5 @@
+import pandas as pd
+
 lideres = [
     {"Almoxarifado": "Almox Corte e Estamparia", "Setor": "MP", "Líder": "ALEX"},
     {"Almoxarifado": "Almox Corte e Estamparia", "Setor": "PEÇA", "Líder": "ALEX"},
@@ -29,9 +31,23 @@ lideres = [
     {"Almoxarifado": "Central", "Setor": "AL01 - ACESS", "Líder": "MAYLSON"},
 ]
 
-def get_lider(almoxarifado, setor):
-    """Retorna o nome do líder com base no almoxarifado e setor."""
-    for lider in lideres:
-        if lider["Almoxarifado"] == almoxarifado and lider["Setor"] == setor:
-            return lider["Líder"]
+planilha_lideres_path = "app/planilha_para_lideres/PLANILHA DE CONTROLE 2024.xlsx"
+
+# Função para carregar os dados da planilha de líderes
+def carregar_lideres(almoxarifado, setor):
+    # Lê a planilha Excel para um DataFrame
+    df = pd.read_excel(planilha_lideres_path)
+
+    df = df[df['ID LISTA'].notna()]  # Remove NaN
+    df = df[df['ID LISTA'] != ""]  # Remove valores vazios
+    df = df[['ID LISTA', 'Almox', 'LÍDER']]
+
+    # Percorre as linhas da planilha
+    for _, row in df.iterrows():
+        # Compara almoxarifado e setor com as colunas correspondentes
+        if row['Almox'] == almoxarifado and row['ID LISTA'] == setor:
+            # Se encontrar, retorna o líder
+            return row['LÍDER']
+    
+    # Se não encontrar nenhuma correspondência, retorna uma mensagem padrão
     return "Líder não definido"

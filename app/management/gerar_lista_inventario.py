@@ -2,7 +2,7 @@ import os
 from openpyxl import load_workbook
 from app import db
 from app.models import Local, Peca  # Ajuste o import conforme a estrutura da sua aplicação
-from app.management.lista_lideres import get_lider
+from app.management.lista_lideres import carregar_lideres
 
 # Criação do diretório de saída
 output_dir = "listas_geradas"
@@ -11,10 +11,13 @@ os.makedirs(output_dir, exist_ok=True)
 # Caminho para o arquivo modelo
 template_path = "excel_dados_inventario/Lista - Inventário 2024.xlsx"
 
+cemag_img = "app/static/img/logo-cemagL.png"
+qr_code_img = "app/static/img/QRCode_Fácil.png"
+
 def generate_inventory_lists():
     # Agrupando locais por (nome, almoxarifado)
     agrupados = {}
-    locais = Local.query.order_by(Local.estante).all()
+    locais = Local.query.filter_by(almoxarifado='Central').order_by(Local.estante).all()
 
     # Agrupei dessa forma pois existem locais com o mesmo nome no mesmo almoxarifado, mas possui estantes difentes
     # então agrupei para evitar que fosse feita uma lista por estante
@@ -46,7 +49,7 @@ def generate_inventory_lists():
                 ws = wb.active
 
                 # Preenche o cabeçalho para o novo arquivo
-                lider = get_lider(almoxarifado, nome)
+                lider = carregar_lideres(almoxarifado, nome)
                 ws["B2"] = lider  # Nome do líder
                 ws["B4"] = almoxarifado  # Almoxarifado
                 ws.merge_cells("B4:D4")  # Mesclar B4, C4, e D4

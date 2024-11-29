@@ -69,7 +69,7 @@ def carregar_dados_csv(caminho_csv):
 
                 # Verificar se a peça já existe
                 peca_query = text("""
-                    SELECT id FROM inventario_2024.pecas WHERE codigo = :codigo AND local_id = :local_id AND almoxarifado = :almoxarifado
+                    SELECT id FROM inventario_2024.pecas WHERE codigo = :codigo AND local_id = :local_id
                 """)
                 peca_result = connection.execute(peca_query, {
                     'codigo': codigo,
