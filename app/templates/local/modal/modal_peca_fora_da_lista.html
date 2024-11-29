@@ -32,9 +32,8 @@
                    <div class="col-sm-6 mb-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <label for="estantePecaForaLista">Estante</label>
-                            <i class="fa-solid fa-circle-exclamation" style="color: #ff0000;font-size: 12px;"></i>
                         </div>
-                        <select class="form-control" name="estantePecaForaLista" id="estantePecaForaLista" required>
+                        <select class="form-control" name="estantePecaForaLista" id="estantePecaForaLista">
                                 <option value="" selected hidden disabled></option>
                             {% for estante in estantes %}
                                 <option value="{{ estante }}">{{ estante }}</option>

@@ -14,7 +14,7 @@
         <div class="row justify-content-center" style="margin-bottom: 50px;">
             <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 text-center">
                 {% for local in locais %}
-                <a href="/inventario/{{local.nome}}" class="local-button"><button class="btn btn-light border m-2" style="font-size: 18px; font-weight: 400;">{{local.nome}} - {{local.almoxarifado}}</button></a>
+                <a href="/inventario/{{local.nome}}/{{local.almoxarifado}}" class="local-button"><button class="btn btn-light border m-2" style="font-size: 18px; font-weight: 400;">{{local.nome}} - {{local.almoxarifado}}</button></a>
                 {% endfor %}
             </div>
         </div>

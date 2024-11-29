@@ -1,8 +1,9 @@
 from app import db
 import os
-from app.models import Local, Peca  # Certifique-se de que models.py tem Local e Peca
 import pandas as pd
+from sqlalchemy import text
 from dotenv import load_dotenv
+
 load_dotenv('.env')
 
 DB_HOST = os.getenv('DB_HOST')
@@ -16,57 +17,96 @@ def carregar_dados_csv(caminho_csv):
 
     # Remover registros com campos obrigatórios nulos
     df = df.dropna(subset=['CÓDIGO', 'SETOR'])
-    
-    # Iterar sobre as linhas do DataFrame
-    for _, row in df.iterrows():
-        try:
-            # Extrair valores das colunas
-            local_nome = row['SETOR'].replace('/', '-') 
-            estante = row['LOCALIZAÇÃO'] if pd.notna(row['LOCALIZAÇÃO']) else ''
-            almoxarifado = row['ALMOXARIFADO']
-            
-            # Verificar se o Local já existe
-            local = Local.query.filter_by(nome=local_nome, estante=estante,almoxarifado=almoxarifado).first()
-            if not local:
-                local = Local(nome=local_nome, estante=estante, almoxarifado=almoxarifado)
-                db.session.add(local)
-                db.session.commit()
-                print(f"Local criado: {local.nome}")
 
-            # Criar a peça
-            codigo = str(row['CÓDIGO']).strip()
-            
-            descricao = row['DESCRIÇÃO'] if pd.notna(row['DESCRIÇÃO']) else ''
-            quantidade_sistema = (
-                float(row['QTD'].replace('.', '').replace(',', '.')) 
-                if pd.notna(row['QTD']) and isinstance(row['QTD'], str) 
-                else float(row['QTD']) 
-                if pd.notna(row['QTD']) 
-                else 0.0
-            )
-            peca_fora_lista = False
+    connection = db.engine.connect()  # Obter conexão direta com o banco
+    trans = connection.begin()  # Iniciar transação
 
-             # Verificar se a peça já existe
-            peca_existente = Peca.query.filter_by(codigo=codigo, local_id=local.id).first()
-            if peca_existente:
-                print(f"Peça já existe: {peca_existente}")
-                continue  # Ignorar e passar para a próxima linha
-            
-            peca = Peca(
-                codigo=codigo,
-                descricao=descricao,
-                local_id=local.id,
-                quantidade_sistema=quantidade_sistema,
-                peca_fora_lista=peca_fora_lista
-            )
-            db.session.add(peca)
-            print(f"Peça criada: {peca}")
-        
-        except Exception as e:
-            print(f"Erro ao processar a linha: {row.to_dict()} - Erro: {e}")
-    
-    # Commit final
-    db.session.commit()
+    try:
+        # Iterar sobre as linhas do DataFrame
+        for _, row in df.iterrows():
+            try:
+                # Extrair valores das colunas
+                local_nome = row['SETOR'].replace('/', '-')
+                estante = row['LOCALIZAÇÃO'] if pd.notna(row['LOCALIZAÇÃO']) else ''
+                almoxarifado = row['ALMOXARIFADO']
+                
+                # Verificar se o Local já existe
+                local_query = text("""
+                    SELECT id FROM inventario_2024.locais WHERE nome = :nome AND estante = :estante AND almoxarifado = :almoxarifado
+                """)
+                local_result = connection.execute(local_query, {
+                    'nome': local_nome,
+                    'estante': estante,
+                    'almoxarifado': almoxarifado
+                }).fetchone()
+
+                if local_result is None:
+                    local_insert = text("""
+                        INSERT INTO inventario_2024.locais (nome, estante, almoxarifado) 
+                        VALUES (:nome, :estante, :almoxarifado)
+                        RETURNING id
+                    """)
+                    local_id = connection.execute(local_insert, {
+                        'nome': local_nome,
+                        'estante': estante,
+                        'almoxarifado': almoxarifado
+                    }).scalar()
+                    print(f"Local criado: {local_nome}")
+                else:
+                    local_id = local_result[0]
+
+                # Criar a peça
+                codigo = str(row['CÓDIGO']).strip()
+                descricao = row['DESCRIÇÃO'] if pd.notna(row['DESCRIÇÃO']) else ''
+                quantidade_sistema = (
+                    float(row['QTD'].replace('.', '').replace(',', '.')) 
+                    if pd.notna(row['QTD']) and isinstance(row['QTD'], str) 
+                    else float(row['QTD']) 
+                    if pd.notna(row['QTD']) 
+                    else 0.0
+                )
+                peca_fora_lista = False
+
+                # Verificar se a peça já existe
+                peca_query = text("""
+                    SELECT id FROM inventario_2024.pecas WHERE codigo = :codigo AND local_id = :local_id AND almoxarifado = :almoxarifado
+                """)
+                peca_result = connection.execute(peca_query, {
+                    'codigo': codigo,
+                    'local_id': local_id
+                }).fetchone()
+
+                if peca_result is not None:
+                    print(f"Peça já existe: {codigo}")
+                    continue  # Ignorar e passar para a próxima linha
+
+                peca_insert = text("""
+                    INSERT INTO inventario_2024.pecas (codigo, descricao, local_id, quantidade_sistema, peca_fora_lista)
+                    VALUES (:codigo, :descricao, :local_id, :quantidade_sistema, :peca_fora_lista)
+                """)
+                connection.execute(peca_insert, {
+                    'codigo': codigo,
+                    'descricao': descricao,
+                    'local_id': local_id,
+                    'quantidade_sistema': quantidade_sistema,
+                    'peca_fora_lista': peca_fora_lista
+                })
+                print(f"Peça criada: {codigo}")
+
+            except Exception as e:
+                print(f"Erro ao processar a linha: {row.to_dict()} - Erro: {e}")
+
+        # Commit final para salvar as transações no banco
+        trans.commit()
+
+    except Exception as e:
+        trans.rollback()  # Reverter transações em caso de erro
+        print(f"Erro ao processar o arquivo: {caminho_csv} - Erro: {e}")
+
+    finally:
+        connection.close()  # Garantir que a conexão seja fechada
+        print("Conexão encerrada.")
+
     print("Dados carregados com sucesso!")
 
 def carregar_varios_csv(lista_caminhos_csv):
@@ -78,5 +118,6 @@ def carregar_varios_csv(lista_caminhos_csv):
 caminhos_csv = [
     'excel_dados_inventario/MODELO BASE INVENTÁRIO 2024 - Almox Corte e Estamparia.csv',
     'excel_dados_inventario/MODELO BASE INVENTÁRIO 2024 - Almox Pintura - Embalagem.csv',
-    'excel_dados_inventario/MODELO BASE INVENTÁRIO 2024 - Almox Prod Especiais.csv'
+    'excel_dados_inventario/MODELO BASE INVENTÁRIO 2024 - Almox Prod Especiais.csv',
+    'excel_dados_inventario/MODELO BASE INVENTÁRIO 2024 - Almox Central.csv'
 ]

@@ -1,5 +1,7 @@
-from flask import render_template, request, jsonify
+from flask import render_template, jsonify, send_file, request
+import pandas as pd
 from . import db
+import io
 from app.models import Local,Peca, Quantidade
 from sqlalchemy import text  # Importar a função 'text' para executar SQL puro
 from flask import current_app as app
@@ -9,8 +11,8 @@ def index():
     locais = db.session.query(Local.nome, Local.almoxarifado).distinct().all()
     return render_template("local/local_list.html", locais=locais)
 
-@app.route("/inventario/<local_nome>", methods=['GET'])
-def local(local_nome):
+@app.route("/inventario/<local_nome>/<almoxarifado>", methods=['GET'])
+def local(local_nome,almoxarifado):
     # Filtrando estante no local especificado
     query_estantes = text('''
         SELECT DISTINCT estante
@@ -27,12 +29,13 @@ def local(local_nome):
         FROM inventario_2024.pecas AS peca
         JOIN inventario_2024.locais AS local ON peca.local_id = local.id
         LEFT JOIN inventario_2024.quantidades AS quant ON peca.id = quant.peca_id
-        WHERE local.nome = :local_nome
+        WHERE local.nome = :local_nome and almoxarifado = :almoxarifado
         AND quant.id IS NULL
         AND peca.peca_fora_lista = FALSE
+        ORDER by estante 
     ''')
     
-    result_pecas = db.session.execute(query_pecas, {'local_nome': local_nome})
+    result_pecas = db.session.execute(query_pecas, {'local_nome': local_nome,'almoxarifado':almoxarifado})
     pecas = result_pecas.fetchall()
 
     # Convertendo os resultados para um formato de dicionário
@@ -217,7 +220,7 @@ def comparar_quantidade():
             'local': resultado.local_nome,
             'codigo': resultado.codigo,
             'descricao': resultado.descricao,
-            'peca_fora_lista':resultado.peca_fora_lista,
+            'peca_fora_lista': resultado.peca_fora_lista,
             'quantidade_sistema': resultado.quantidade_sistema,
             'quantidade_real': resultado.quantidade_real,
             'diferenca': (
@@ -226,6 +229,25 @@ def comparar_quantidade():
                 else None
             )
         })
+
+    # Verifica se o usuário deseja o arquivo Excel
+    if request.args.get('export') == 'excel':
+        # Cria um DataFrame com os dados
+        df = pd.DataFrame(comparacoes)
+
+        # Gera o arquivo Excel em memória usando openpyxl
+        output = io.BytesIO()
+        with pd.ExcelWriter(output, engine='openpyxl') as writer:
+            df.to_excel(writer, index=False, sheet_name='Comparacoes')
+        output.seek(0)
+
+        # Envia o arquivo Excel
+        return send_file(
+            output,
+            as_attachment=True,
+            download_name='comparacoes.xlsx',
+            mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
 
     # Retorna os dados como JSON
     return jsonify(comparacoes)
