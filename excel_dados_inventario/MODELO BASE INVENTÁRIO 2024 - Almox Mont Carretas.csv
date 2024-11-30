@@ -1,0 +1,853 @@
+SETOR,LOCALIZAÇÃO,CÓDIGO,DESCRIÇÃO,QTD,ALMOXARIFADO
+Cilindro 2,ESTEIRA,034755,FECHAMENTO [CAMISA DO CILINDRO - CBHM6000 CA],0,Almox Mont Carretas
+Cilindro 2,ESTEIRA,468897,FECHAM CILINDRO           CBHM,0,Almox Mont Carretas
+Cilindro 2,ESTEIRA,496935,ORELHA DO CILINDRO [CAMISA DO CILINDRO - CBH/CBHM],0,Almox Mont Carretas
+Cilindro 2,ESTEIRA,034946,BUCHA DO PISTÃO [PISTÃO DO CILINDRO - CBH/CBHM],0,Almox Mont Carretas
+Cilindro 2,ESTEIRA,496923,TUBO DA CAMISA DO CILINDRO [CILINDRO HIDRAULICO - CBH/CBHM],0,Almox Mont Carretas
+Cilindro 2,ESTEIRA,034945,TUBO DA CONEXÃO MENOR [CAMISA DO CILINDRO - CBH/CBHM],0,Almox Mont Carretas
+Cilindro 2,CAIXA 1,034545,TUBO [CAMISA DO CILINDRO - CBH5/CBHM5000],0,Almox Mont Carretas
+Cilindro 2,CAIXA 2,034754,TUBO [CAMISA DO CILINDRO - CBHM6000 CA],0,Almox Mont Carretas
+Cilindro 2,CAIXA 3,034879,EIXO PISTÃO [CBHM5000/6000],0,Almox Mont Carretas
+Cilindro 2,CAIXA 4,034756,EIXO [PISTÃO - CBHM6000 CA],0,Almox Mont Carretas
+Cilindro 2,MESA MONTAGEM,034790,"TERMINAL MACHO JIC 3/4"" [TUBOS HIDRÁULICOS - CBH/CBHM]",0,Almox Mont Carretas
+Cilindro 2,MESA MONTAGEM,034945,TUBO DA CONEXÃO MENOR [CAMISA DO CILINDRO - CBH/CBHM],0,Almox Mont Carretas
+Fueiro,A,031210,CORPO FUEIRO TRAS 90cm - CBHM 4500/5000,0,Almox Mont Carretas
+Fueiro,A,469026,CHAPEAMENTO FUEIRO CENTRAL (10.000) CBHM (Un),0,Almox Mont Carretas
+Fueiro,A,014424,CHAPEAM FUEIRO TRAS  M09 (10.000) CBHM (Un),0,Almox Mont Carretas
+Fueiro,A,031216,CORPO FUEIRO CENTRAL - CBHM 10000,0,Almox Mont Carretas
+Fueiro,A,031212,CORPO FUEIRO DIANTEIRO - CBHM 10000/8000,0,Almox Mont Carretas
+Fueiro,A,031214,CORP FUEIRO TRAS - CBHM 8000/10000,0,Almox Mont Carretas
+Fueiro,A,031211,CORPO FUEIRO TRAS 60cm - CBHM 3500,0,Almox Mont Carretas
+Fueiro,A,031209,CORPO FUEIRO DIANTEIRO 60cm - CBHM 3500,0,Almox Mont Carretas
+Fueiro,B,031287,CORPO FUEIRO TRAS. (ABERT. LATERAL) - CBH M18,0,Almox Mont Carretas
+Fueiro,B,031215,"CORPO FUEIRO TRAS 1,10 - CBHM 5000",0,Almox Mont Carretas
+Fueiro,B,031213,CORPO FUEIRO DIANT 90cm - CBHM 4500/5000,0,Almox Mont Carretas
+Fueiro,B,031221,CORPO FUEIRO CENTRAL - CBHM 6000,0,Almox Mont Carretas
+Fueiro,C GABARITOS,494604,BUCHA ESPAÇ  FUEIRO  CBHM (Un),0,Almox Mont Carretas
+Fueiro,C GABARITOS,494665,PINO FUEIRO       CBHM,0,Almox Mont Carretas
+Fueiro,C GABARITOS,031233,BUCHA ESPAÇ  FUEIRO TUBULAR CBHM,0,Almox Mont Carretas
+Fueiro,C GABARITOS,033612,ARRUELA [ESPAÇADOR - CBH M18],0,Almox Mont Carretas
+Fueiro,C GABARITOS,031410,REFORÇO INTERNO - FUEIRO - CBH(M18),0,Almox Mont Carretas
+Fueiro,C GABARITOS,030603,REFORÇO LATERAL INTERNO - FUEIRO - CBH(M17) ABERTURA LAT.,0,Almox Mont Carretas
+Fueiro,CAIXA,240634,MACACO MOD. RAL-611 (CBHs),0,Almox Mont Carretas
+Fueiro,CAIXA I,494616,FECHAM SUP   FUEIRO   CBHM,0,Almox Mont Carretas
+Fueiro,CAIXA II,428383,CORRENTE TENSOR 855 - CARROC,0,Almox Mont Carretas
+Fueiro,CAIXA II,428360,ELO CORRENTE COMPLEM-CARR C2,0,Almox Mont Carretas
+Fueiro,CAIXA II,457000,TENSOR CORRENTE - CORROC  CAR,0,Almox Mont Carretas
+Fueiro,CAIXA III,428395,CORRENTE/PORTA CORR 995-CARROC,0,Almox Mont Carretas
+Fueiro,CAIXA IV,032745,ALÇA - [TRAVA DE BASCULAMENTO FA4FB],0,Almox Mont Carretas
+Fueiro,CORREDOR,032666,ESTRUTURA U [GAIOLA KIT INCENDIO - FTC],0,Almox Mont Carretas
+Fueiro,D,028766,DOBRADIÇA [FUEIRO - CBH M21],0,Almox Mont Carretas
+Fueiro,D,030789,CORRENTE 180MM - MACACO M17,0,Almox Mont Carretas
+Fueiro,D,030386,TRAVA MACACO - MACACO EXTERNO - CBHM/CBH 4T,0,Almox Mont Carretas
+Fueiro,D,494884,PINO  MACACO     CBH/CBHM,0,Almox Mont Carretas
+Fueiro,D,031239,DOBRADIÇA HORIZONTAL CBH/CBHM (M18),0,Almox Mont Carretas
+Fueiro,D,425795,APOIO BUCHA GUIA    CBHM,0,Almox Mont Carretas
+Fueiro,F,032723,BUCHA [GAIOLA KIT INCENDIO - FTC],0,Almox Mont Carretas
+Fueiro,J,029521,"CORPO DO ESPAÇADOR - CBH 6,0 RS/TANDEM ABERTURA LAT",0,Almox Mont Carretas
+Fueiro,L,445885,PINO ENG ICAM (M98)   CARR,0,Almox Mont Carretas
+Fueiro,L,025409,SUPORTE TIRANTE / MANCAL CIL  CHASSI,0,Almox Mont Carretas
+Fueiro,L,030326,TUBO FIXO MACACO - MACACO EXTERNO - CBHM/CBH 4T,0,Almox Mont Carretas
+Fueiro,L,494653,DOBRADIÇA FUEIRO TRAS   CBHM,0,Almox Mont Carretas
+Fueiro,L,464831,CORRENTE 400MM - F TRAS CAF CBHM,0,Almox Mont Carretas
+Fueiro,L,025465,BUCHA DO MANCAL DO CILINDRO CBH8,0,Almox Mont Carretas
+Fueiro,L,494616,FECHAM SUP   FUEIRO   CBHM,0,Almox Mont Carretas
+Fueiro,L ,032365,CORPO [SUPORTE DA TAMPA - CBH UG M21],0,Almox Mont Carretas
+Fueiro,L ,030789,CORRENTE 180MM - MACACO M17,0,Almox Mont Carretas
+Fueiro,PALETE,032665,ASSOALHO [GAIOLA KIT INCENDIO - FTC],0,Almox Mont Carretas
+Fueiro,SETOR,032667,TUBO DA ESTRUTURA [GAIOLA KIT INCENDIO - FT10500],0,Almox Mont Carretas
+Fueiro,SETOR,032668,FECHAMENTO FRONTAL [FTC4300/6500],0,Almox Mont Carretas
+Fueiro,SETOR,032669,REFORÇO MAIOR [GAIOLA KIT INCENDIO - FTC],0,Almox Mont Carretas
+Fueiro,SETOR,032670,REFORÇO MENOR [GAIOLA KIT INCENDIO - FTC],0,Almox Mont Carretas
+Fueiro,SETOR,400634,"CORRENTE TENSOR 1160     S4,7/S5,3",0,Almox Mont Carretas
+Fueiro,SETOR,212300,"ARRUELA LISA 27MM POL. CHAPA 3/16""",0,Almox Mont Carretas
+Fueiro,SETOR,221193,"LUVA DE UNIAO GALV. DE 2""",0,Almox Mont Carretas
+Fueiro,SETOR,274124,PORCA SEX     1/2   UNC  ZB,0,Almox Mont Carretas
+Fueiro,SETOR,274203,"PORCA SEX     3/4""   UNC  ZB",0,Almox Mont Carretas
+Fueiro,SETOR,292254,"VALVULA DE GAVETA 2""",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,A,034758,CAMISA DO CILINDRO [CILINDRO HIDRÁULICO - CBHM6000 CA],0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,A,034828,CAMISA DO CILINDRO [CBH7/CBHM6000],0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,B,034757,CABEÇA DO PISTÃO [CILINDRO HIDRÁULICO - CBHM6000 CA],0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,B,034881,CABEÇA DO PISTÃO [CBHM5000/6000],0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,210026,ANEL O'RING 2-045 (USAR PARKER),0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,292291,GAX MOLYTH REF 25002000375,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,210158,ANEL O-RING 2-342,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,210027,ANEL O'RING 2-026,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,292448,GAX MOLYTH REF 37503250    MAI,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,210013,ANEL GUIA MOLYGARD W2-2250-500 (REF. PARKER),0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,210160,ANEL RASPADOR     REF D-2000,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,289231,ROLAMENTO 32207 SPZ/ZWZ/GBR/1ª L,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,272401,"PORCA CAST.  DE 1"" UNS-14 FIOS ZB",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,274151,"PORCA SEXTAVADA 1.1/4"" UNF 8.8",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,274964,"PORCA SEXTAVADA G5 1.1/2"" UNF",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,273600,"PORCA CON. 5/8"" UNF CH-1.1/16"" ZB",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,273405,"PORCA CÔN. 1/2"" UNF - CH-13/16"" ZB",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,292292,GAXETA MOLYTHANE POLYPAK TIPO B 25002375-375 B,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,210011,ANEL O'RING 2-244,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,292048,GAXETA MOLYTHANE POLYPAK STD 37503750,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,210161,ANEL RASPADOR D-2375,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,210019,ANEL GUIA MOLYGARD 6W2-2612-500,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,210029,ANEL O'RING 2-047 (USAR PARKER),0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,210028,ANEL O'RING 2-029,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,210024,ANEL O'RING 2-239,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,289220,ROLAMENTO 33210 SPZ/ZWZ/GBR/1ª L,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,212300,"ARRUELA LISA 27MM POL. CHAPA 3/16""",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,284245,RETENTOR REF 00517 BR (AR-5346),0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,C,255454,"PARAF RODA MB (1.50) 10.9 22X89 ESPIRAL MBB CÓD. 812371 (7/8""X2.1/2"" UNF)",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,CAIXA 1,222404,"CUBO RODA F. FUND. NOD. GGG-50"" CBHM 6000",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,CAIXA 10,466050,COMANDO VAROES - FREIO    CAR,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,CAIXA 11,412661,ARRUELA P/RET - EIXO (C) F6,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,CAIXA 2,222402,"CUBO RODA F. FUND. NOD. GGG-50"" FA4/CBHM",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,CAIXA 3,222401,"CUBO RODA F. FUND. NOD. GGG-50"" F6",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,CAIXA 4,459574,TAMBOR FREIO - EIXO       F6F5,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,CAIXA 5,034759,PISTÃO [CILINDRO HIDRÁULICO - CBHM6000 CA],0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,CAIXA 6,034899,PISTÃO DO CILINDRO [CBHM5000/6000],0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,CAIXA 7,288986,ROLAMENTO 30207 SPZ/ZWZ/GBR/1ª L,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,CAIXA 7,289231,ROLAMENTO 32207 SPZ/ZWZ/GBR/1ª L,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,D,034753,FECHAMENTO GUIA [CILINDRO HIDRÁULICO - CBHM6000 CA],0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,D,034546,FECHAMENTO GUIA DO CILINDRO [CBH/CBHM],0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,E,288986,ROLAMENTO 30207 SPZ/ZWZ/GBR/1ª L,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,E,289024,ROLAMENTO 30208 SPZ/ZWZ/GBR/1ª L,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,E,289206,ROLAMENTO 30210 SPZ/ZWZ/GBR/1ª L,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,E,212300,"ARRUELA LISA 27MM POL. CHAPA 3/16""",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,E,284282,RETENTOR REF 00793 BA (AR-5006),0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,ESTANTE CUBO DE RODA,255452,PARAF RODA 5/8-18Fx2.3/32 - 216R,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,ESTANTE CUBO DE RODA,255464,"PARAF RODA 1/2 X 1.3/4"" CF. DES.",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,ESTANTE CUBO DE RODA,273600,"PORCA CON. 5/8"" UNF CH-1.1/16"" ZB",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,ESTANTE CUBO DE RODA,273405,"PORCA CÔN. 1/2"" UNF - CH-13/16"" ZB",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,ESTANTE CUBO DE RODA,802013,GRAXA LUBRIFICANTE,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,ESTEIRA CILINDRO,034547,CAMISA DO CILINDRO [CBH5/CBHM5000],0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,ESTEIRA EIXO,455600,TAMPA CUBO - RODAGEM   F6/FA/CBHM,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,ESTEIRA EIXO,212300,"ARRUELA LISA 27MM POL. CHAPA 3/16""",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,ESTEIRA EIXO,272401,"PORCA CAST.  DE 1"" UNS-14 FIOS ZB",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,ESTEIRA EIXO,222148,CONTRA PINO  3/16 X 1.1/2,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,SETOR,200405,"PORCA AUTOTRAVANTE 1/2"" UNC",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,SETOR,272403,"PORCA AC SX OSC C32/AA29 M22X1,50 CL10 CÓD. 79415 (7/8"" UNF)",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,SETOR,212091,"ARRUELA LISA 3/8"" ZB CHAPA 1,5MM",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,SETOR,212098,"ARRUELA LISA 1/4"" GALV",0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,SETOR,222151,CONTRA PINO  1/4  X 3.1/2,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,SETOR,222197,CONTRA PINO  1/8  X 1,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,SETOR,234205,GRAXEIRO 1/4 UNF       RETO,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,SETOR,274355,PORCA SEX     1/4          UNF,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,SETOR,284210,RETENTOR REF 1552 BR (AR-5363),0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,SETOR,222467,EMBOLO C/ VED. CN 060x020x050,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,SETOR,222470,PORCA AUTO TRAVANTE MÉTRICA ALTA M20X1.5,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,SETOR,222447,NIPLE JIC 37 3/4,0,Almox Mont Carretas
+Cubo de roda/Eixo comp./Cilindro,SETOR,212507,"ARR. DE PRES. MÉDIA - ZB 1/4""",0,Almox Mont Carretas
+Içamento,A,022822,FECHAMENTO DO SUPORTE P/CABO - ICAM C/FREIO       CBHF/CBMF,0,Almox Mont Carretas
+Içamento,A,025071,BUCHA EMBOLO - IÇAMENTO F4/F6 (NOV/12...),0,Almox Mont Carretas
+Içamento,A,025125,ARRUELA GUIA - IÇAMENTO CARR MELÃO M12/02,0,Almox Mont Carretas
+Içamento,A,025195,SUPORTE DE FIXAÇÃO IÇAM  CBHF (M12),0,Almox Mont Carretas
+Içamento,A,025239,SUPORTE DIANTEIRO - CHASSI FA6 RD,0,Almox Mont Carretas
+Içamento,A,025240,FECHAMENTO TRASEIRO - CHASSI FA6 RD,0,Almox Mont Carretas
+Içamento,A,025241,REFORÇO DA BUCHA DO MACACO - ICAM FA,0,Almox Mont Carretas
+Içamento,B,025243,ORELHA  ICAMENTO (M98)  FA (NOV13...),0,Almox Mont Carretas
+Içamento,B,025550,SUPORTE DE FIXAÇÃO TRASEIRO - IÇAM - CBHF M12,0,Almox Mont Carretas
+Içamento,B,025614,HASTE TRACAO MENOR-ICAM MAIOR F4/F6/CBHM,0,Almox Mont Carretas
+Içamento,B,025641,HASTE DE TRAÇAO MAIOR [IÇAMENTO - CBH/CBHM/FTC-2E],0,Almox Mont Carretas
+Içamento,C,025659,HASTE DE TRACAO ICAM (M98)  FA (NOV13...),0,Almox Mont Carretas
+Içamento,C,025660,TRANSVERSINA ICAMENTO (M98) FA (NOV13...),0,Almox Mont Carretas
+Içamento,C,025661,SUPORTE ENGATE ICAM (M98) FA (NOV13...),0,Almox Mont Carretas
+Içamento,C,025662,FECHAM DIANTEIRO ICAM (M98) FA (NOV13...),0,Almox Mont Carretas
+Içamento,C,025664,HASTE TRACAO C/F (M98) - FA FB (NOV13...),0,Almox Mont Carretas
+Içamento,C,025681,HASTE TRACAO - ICAM      FA6 (DEZ13...),0,Almox Mont Carretas
+Içamento,C,025709,HASTE DE TRAÇÃO IÇAMENTO (FEV14...) CBHF (M12),0,Almox Mont Carretas
+Içamento,C,025818,FECHAM DIANT - COMPL GUIA DO ÊMBOLO - CARR MELÃO,0,Almox Mont Carretas
+Içamento,C,025819,REFORÇO INTERNO - COMPL GUIA DO ÊMBOLO - CARR MELÃO,0,Almox Mont Carretas
+Içamento,C,025821,ARRUELA INTERNA - COMPL GUIA DO ÊMBOLO - CARR MELÃO,0,Almox Mont Carretas
+Içamento,C,028829,CORPO DO VARÃO  CBH M16 2 EIXOS TANDEM,0,Almox Mont Carretas
+Içamento,C,029964,"APOIO DA TAMPA - CAÇAMBA CBH 6,0 C/ ABERTURA LATERAL",0,Almox Mont Carretas
+Içamento,C,029987,TRANSVERSINA  - 5ª RODA - CARRETAS ER6/ER4,0,Almox Mont Carretas
+Içamento,C,029988,TRANSV SUPORTE - 5ª RODA - CARRETAS ER6/ER4,0,Almox Mont Carretas
+Içamento,C,030051,SUP. FEIXE DE MOLAS/PORTA IÇAMENTO - 5ª RODA ER4/6,0,Almox Mont Carretas
+Içamento,C,030327,TUBO FIXO MACACO M17 CHASSI CBHM/CBH,0,Almox Mont Carretas
+Içamento,C,030381,FIXADOR MACACO M17 CHASSI CBHM/CBH,0,Almox Mont Carretas
+Içamento,C,031170,"HASTE TRAÇÃO MAIOR - IÇAMENTO FTC C/FA6 1/4""",0,Almox Mont Carretas
+Içamento,C,031687,CORPO DO APOIO DO CARDAN (Un),0,Almox Mont Carretas
+Içamento,CAIXA 1,441880,REFORCO TRAVA ICAM (M98)  FA,0,Almox Mont Carretas
+Içamento,CAIXA 10,459501,FECHAM DIANTEIRO - ICAM (M98)  C2/FP2,0,Almox Mont Carretas
+Içamento,CAIXA 11,459690,FECHAM DIANTEIRO ICAM (M98) FA/CBHM,0,Almox Mont Carretas
+Içamento,CAIXA 12,459732,TRAVA           ICAM  (M98) FA,0,Almox Mont Carretas
+Içamento,CAIXA 13,460783,TRAVA FEIXE DE MOLAS  - CHASSI CS   CBH,0,Almox Mont Carretas
+Içamento,CAIXA 14,463371,ABRAÇADEIRA DIANT. IÇAM.    UVA,0,Almox Mont Carretas
+Içamento,CAIXA 15,464510,PEGADOR MANIV MACACO    CBH/CBHM,0,Almox Mont Carretas
+Içamento,CAIXA 16,464545,TRAVA PEGADOR MACACO  CBH/CBHM,0,Almox Mont Carretas
+Içamento,CAIXA 17,464880,BUCHA EMBOLO - CHASSI CBHM/ICAM FA,0,Almox Mont Carretas
+Içamento,CAIXA 18,467704,ESBARRO LIMITADOR DE GIRO - 5ª RODA (M98)   F4/6,0,Almox Mont Carretas
+Içamento,CAIXA 19,468393,FECHAM COMPL - ICAM  (M98)F4/6,0,Almox Mont Carretas
+Içamento,CAIXA 2,444972,"BASE DESCANSO - ICAMENTO A3, (Un)",0,Almox Mont Carretas
+Içamento,CAIXA 3,446282,TRANSV MAIOR - ICAM  (M98)F4/6,0,Almox Mont Carretas
+Içamento,CAIXA 4,446282,TRANSV MAIOR - ICAM  (M98)F4/6,0,Almox Mont Carretas
+Içamento,CAIXA 5,446312,TRANSV MENOR - ICAM  (M98)F4/6,0,Almox Mont Carretas
+Içamento,CAIXA 6,446312,TRANSV MENOR - ICAM  (M98)F4/6,0,Almox Mont Carretas
+Içamento,CAIXA 7,447020,PORTA IÇAMENTO-5@ RODA     U4/6,0,Almox Mont Carretas
+Içamento,CAIXA 8,453407,SUP FEIXE MOLA DIAN-CHASSI  U4P2,0,Almox Mont Carretas
+Içamento,CAIXA 9,454278,SUPORTE TRAVAM ICAM (M98) FA,0,Almox Mont Carretas
+Içamento,D,031867,SUPOTE DA BASE DA ENSILADEIRA _ IÇAMENTO CBE _ CBHM 5000 CBE,0,Almox Mont Carretas
+Içamento,D,031868,FECHAMENTO DA BASE MOVEL _ BASE MOVEL PARA ENSILADEIRA,0,Almox Mont Carretas
+Içamento,D,031869,CORPO DA BASE MOVEL _ BASE MOVEL PARA ENSILADEIRA,0,Almox Mont Carretas
+Içamento,D,032300,PLACA DE APOIO 5ª RODA _ CBHL 6000,0,Almox Mont Carretas
+Içamento,D,032352,SUPORTE FRONTAL [CHASSI COMPLETO - CBH],0,Almox Mont Carretas
+Içamento,D,032406,HASTE TRACAO FTC 4300 -,0,Almox Mont Carretas
+Içamento,D,033109,BUCHA DA MANIVELA [TDV5000] (Un),0,Almox Mont Carretas
+Içamento,D,033110,PINO DA MANIVELA [TDV5000] (Un),0,Almox Mont Carretas
+Içamento,D,033320,HASTE DE TRAÇÃO MENOR [IÇAMENTO - CBH12],0,Almox Mont Carretas
+Içamento,E,033324,APOIO DA LUVA [IÇAMENTO - CBH12],0,Almox Mont Carretas
+Içamento,ESTANTE,468540,FECHAM FRONTAL - ICAM (M98) F4/6,0,Almox Mont Carretas
+Içamento,ESTANTE,474046,LONG 5 RODA  - 5 RODA        U4,0,Almox Mont Carretas
+Içamento,ESTANTE,479329,BUCHA    -   5ª RODA (M98)  F4/6,0,Almox Mont Carretas
+Içamento,ESTANTE,480230,HASTE TRACAO MENOR-ICAM   F4/6,0,Almox Mont Carretas
+Içamento,ESTANTE,480230,HASTE TRACAO MENOR-ICAM   F4/6,0,Almox Mont Carretas
+Içamento,ESTANTE,480307,HASTE TRACAO MAIOR-ICAM   F4/6,0,Almox Mont Carretas
+Içamento,ESTANTE,480629,PLACA DE APOIO - 5ª RODA (M98)   F4/6,0,Almox Mont Carretas
+Içamento,ESTANTE,480630,REFORÇO  - 5ª RODA (M98)   F4/6,0,Almox Mont Carretas
+Içamento,F,033328,APOIO INFERIOR [FIXAÇÃO BRAÇO - CBH12],0,Almox Mont Carretas
+Içamento,F,033329,REFORÇO LATERAL [FIXAÇÃO BRAÇO - CBH12],0,Almox Mont Carretas
+Içamento,F,033332,REFORÇO INFERIOR [FIXAÇÃO BRAÇO - CBH12],0,Almox Mont Carretas
+Içamento,F,033424,LINGUETA DE GIRO [BRAÇO ESTABILIZADOR - FT12500 M22],0,Almox Mont Carretas
+Içamento,F,033425,BRAÇO [BRAÇO ESTABILIZADOR - FT12500 M22],0,Almox Mont Carretas
+Içamento,F,033889,REFORÇO INTERIOR [CONJ SUP FRONTAL - CBH],0,Almox Mont Carretas
+Içamento,F,033925,ORELHA APOIO DO CARDAN [IÇAMENTO - FT12500],0,Almox Mont Carretas
+Içamento,F,034148,FLANGE - ARO DE ALTA FLUTUAÇÃO CBH7 SS TANDEM,0,Almox Mont Carretas
+Içamento,F,035004,"FLANGE [RODA RS ARO 20"" - CBH5/CBHM5000]",0,Almox Mont Carretas
+Içamento,F,212093,"ARRUELA LISA 3/4"" CHAPA 3,75MM",0,Almox Mont Carretas
+Içamento,F,234205,GRAXEIRO 1/4 UNF       RETO,0,Almox Mont Carretas
+Içamento,F,258416,PARAF SEX   5/16X 1.1/4    UNC,0,Almox Mont Carretas
+Içamento,F,274252,"PORCA SEX    5/16""  UNC  ZB",0,Almox Mont Carretas
+Içamento,F,410214,"PORTA ALAV COMANDO - ICAM A3,5",0,Almox Mont Carretas
+Içamento,F,411218,APOIO MOLA - CHASSI            CAR,0,Almox Mont Carretas
+Içamento,F,418377,BUCHA ICAMENTO FA4,0,Almox Mont Carretas
+Içamento,F,424675,"ARRUELA LISA 7/8"" - ESP 1/4"" - MACACO  CARR",0,Almox Mont Carretas
+Içamento,G,427020,CORPO PORTA CABO-FREIO    U4 (Un),0,Almox Mont Carretas
+Içamento,G,430481,PORCA CORPO      MACACO FA,0,Almox Mont Carretas
+Içamento,G,431242,ABRAÇADEIRA TRAS. IÇAM.    UVA,0,Almox Mont Carretas
+Içamento,G,439009,HASTE DE TRACAO - ICAM (M98)  FP2,0,Almox Mont Carretas
+Içamento,G,439046,REFORCO  - ICAM (M98)   C2/FP2,0,Almox Mont Carretas
+Içamento,G,439083,COMPLEM PORTA CABO-FREIO  CAR (Un),0,Almox Mont Carretas
+Içamento,G,439277,REFORCO ICAMENTO (M98)  FA,0,Almox Mont Carretas
+Içamento,G,441480,SUPORTE ENGATE ICAM (M98) FA/CBHM,0,Almox Mont Carretas
+Içamento,SETOR,020059,FECHAM CORPO MACACO     CBHM,0,Almox Mont Carretas
+Içamento,SETOR,022810,CORPO DO SUPORTE P/CABO - ICAM C/FREIO       CBHF/CBMF,0,Almox Mont Carretas
+Içamento,SETOR,481439,HASTE TRACAO MAIOR - ICAM MAIOR    FTC/CBHM 02 EIXOS,0,Almox Mont Carretas
+Içamento,SETOR,481713,REFORCO LIM GIRO - 5a RODA  (M98)  F4/6,0,Almox Mont Carretas
+Içamento,SETOR,483023,FECHAM LATERAL ICAM (M98) FA/CBHM,0,Almox Mont Carretas
+Içamento,SETOR,483023,FECHAM LATERAL ICAM (M98) FA/CBHM,0,Almox Mont Carretas
+Içamento,SETOR,486541,ROLDANA    ACESSORIO    (8000) CBH,0,Almox Mont Carretas
+Içamento,SETOR,492070,#N/A,0,Almox Mont Carretas
+Içamento,SETOR,492073,DIAFRAGMA FEIXE MOLA-5ROD U4,0,Almox Mont Carretas
+Içamento,SETOR,494707,HASTE MANIVELA MACACO     CBH/CBHM,0,Almox Mont Carretas
+Içamento,SETOR,494719,BUCHA MANIVELA MACAC0     CBH/CBHM,0,Almox Mont Carretas
+Içamento,SETOR,494720,FUSO MACACO MONT  CBH/CBHM,0,Almox Mont Carretas
+Içamento,SETOR,494732,FUSO DO MACACO       CBH/CBHM,0,Almox Mont Carretas
+Içamento,SETOR,494823,CHAPEAMENTO CORPO MACACO  CBHM,0,Almox Mont Carretas
+Içamento,SETOR,494859,TRAVA PINO       CBH/CBHM,0,Almox Mont Carretas
+Içamento,SETOR,496534,TRAVA  MACACO     CBHM,0,Almox Mont Carretas
+Içamento,SETOR,496571,TRAVA COMPL MACACO     CBHM,0,Almox Mont Carretas
+Içamento,SETOR,496844,CORPO COMPL MACACO     CBHM,0,Almox Mont Carretas
+Içamento,SETOR,496868,SAPATA  MACACO     CBHM,0,Almox Mont Carretas
+Conj. intermediario,SETOR,466724,EMBOLO COM FREIO - CBHM,0,Almox Mont Carretas
+Conj. intermediario,SETOR,025073,EMBOLO S/FREIO - ICAM F4/F6 (NOV/12...),0,Almox Mont Carretas
+Conj. intermediario,SETOR,023358,TUBO DO TIRANTE DA TRAVA   CBHM 2 EIXOS,0,Almox Mont Carretas
+Conj. intermediario,SETOR,412168,ARRUELA ENCOSTO - ICAM U6T,0,Almox Mont Carretas
+Conj. intermediario,SETOR,025075,ESBARRO DO EMBOLO - IÇAMENTO F4/F6 (NOV/12),0,Almox Mont Carretas
+Conj. intermediario,SETOR,023346,BASE DE APOIO - APOIO MANGUEIRA   CBHM 2 EIXOS,0,Almox Mont Carretas
+Conj. intermediario,SETOR,032313,PINO LUVA DE ENGATE _ CBH / FTC,0,Almox Mont Carretas
+Conj. intermediario,SETOR,464879,EMBOLO - CHASSI CBHM/ICAM FA,0,Almox Mont Carretas
+Conj. intermediario,SETOR,028877,EMBOLO C/ FREIO - IÇAMENTO - CBH M16 02 EIXOS TANDEM,0,Almox Mont Carretas
+Conj. intermediario,SETOR,032432,EMBOLO COM ROSCA - CHASSI CBHM/ICAM,0,Almox Mont Carretas
+Conj. intermediario,SETOR,025072,EMBOLO C/FREIO - ICAM F4/F6 (NOV/12...),0,Almox Mont Carretas
+Conj. intermediario,SETOR,031693,CORPO DO APOIO DA MANGUEIRA - TANQUES,0,Almox Mont Carretas
+Conj. intermediario,SETOR,023360,HASTE APOIO DA  MANGUEIRA   CBHM 2 EIXOS,0,Almox Mont Carretas
+Conj. intermediario,SETOR,031687,CORPO DO APOIO DO CARDAN,0,Almox Mont Carretas
+Conj. intermediario,SETOR,023632,TUBO DO TIRANTE DA TRAVA   (M12) CBH,0,Almox Mont Carretas
+Conj. intermediario,SETOR,028827,ENGATE DO VARÃO DE TRAVA   CBH M16 2 EIXOS TANDEM,0,Almox Mont Carretas
+Conj. intermediario,SETOR,023516,ENGATE VARÃO DE TRAVA    CBHM 2 EIXOS,0,Almox Mont Carretas
+Conj. intermediario,SETOR,023504,CHAPA DE REGULAGEM VARÃO DE TRAVA   CBHM 2 EIXOS,0,Almox Mont Carretas
+Conj. intermediario,SETOR,028829,CORPO DO VARÃO  CBH M16 2 EIXOS TANDEM,0,Almox Mont Carretas
+Conj. intermediario,SETOR,013134,ARGOLA MANIV BORBOL (M03) ROT,0,Almox Mont Carretas
+Conj. intermediario,SETOR,030387,BASE MÓVEL M17 BASE MÓVEL CBHM/CBH,0,Almox Mont Carretas
+Conj. intermediario,SETOR,410718,"LUVA ENGATE FURO 1""  (M98)F4/6",0,Almox Mont Carretas
+Conj. intermediario,SETOR,418894,LUVA UNIAO - ICAM (M98) F4/,0,Almox Mont Carretas
+Conj. intermediario,SETOR,212092,"ARRUELA LISA 1/2"" CHAPA 1/8"" ZB OU ZA",0,Almox Mont Carretas
+Conj. intermediario,SETOR,212091,"ARRUELA LISA 3/8"" ZB CHAPA 1,5MM",0,Almox Mont Carretas
+Conj. intermediario,SETOR,274124,PORCA SEX     1/2   UNC  ZB,0,Almox Mont Carretas
+Conj. intermediario,SETOR,258532,"PARAF SEX   1/2 X 2 ""     UNC ZB",0,Almox Mont Carretas
+Conj. intermediario,SETOR,212300,"ARRUELA LISA 27MM POL. CHAPA 3/16""",0,Almox Mont Carretas
+Conj. intermediario,SETOR,034790,"TERMINAL MACHO JIC 3/4"" [TUBOS HIDRÁULICOS - CBH/CBHM]",0,Almox Mont Carretas
+Conj. intermediario,SETOR,464855,LUVA ENGATE    - CHASSI    CBH,0,Almox Mont Carretas
+Conj. intermediario,SETOR,030388,COMPLEMENTO BASE MÓVEL M17 BASE MÓVEL CBHM/CBH,0,Almox Mont Carretas
+Conj. intermediario,SETOR,031038,"APOIO DA CORRENTE - LATERAL S4,0M",0,Almox Mont Carretas
+Conj. intermediario,SETOR,414426,"PORTA TRAVA RE  FA3,5FBS",0,Almox Mont Carretas
+Conj. intermediario,SETOR,032316,"ARRUELA LISA Ø1"" _ ENGATE _ CBH / FTC",0,Almox Mont Carretas
+Conj. intermediario,SETOR,031865,BUCHA DA MOLA DO EMBOLO [CBH/CBHM],0,Almox Mont Carretas
+Conj. intermediario,SETOR,238406,MOLA - COMPL GUIA DO ÊMBOLO - CARR MELÃO 025086,0,Almox Mont Carretas
+Conj. intermediario,SETOR,030749,CORPO TUBO HIDRÁULICO 6T - ACESS   CBHM M17,0,Almox Mont Carretas
+Conj. intermediario,SETOR,024302,CORPO TUBO HIDRÁULICO - ACESS   CBHF (M12),0,Almox Mont Carretas
+Conj. intermediario,SETOR,030653,CORPO TUBO HIDRÁULICO - ACESS   CBHM M17,0,Almox Mont Carretas
+Conj. intermediario,SETOR,031564,CORPO TUBO HIDRÁULICO 6T (02 EIXOS),0,Almox Mont Carretas
+Conj. intermediario,SETOR,013304,TUBO HIDRAULICO CBHF,0,Almox Mont Carretas
+Conj. intermediario,SETOR,033055,CORPO [TUBO HIDRÁULICO - CBH7-2E M22],0,Almox Mont Carretas
+Conj. intermediario,SETOR,025069,EMBOLO C/FREIO      CBMF/CBHF,0,Almox Mont Carretas
+Conj. intermediario,SETOR,025104,"OLHAL [ENGATE RÁPIDO - F4,5]",0,Almox Mont Carretas
+Conj. intermediario,SETOR,025822,"ÊMBOLO [ENGATE RÁPIDO - F4,5]",0,Almox Mont Carretas
+Conj. intermediario,SETOR,025829,"ARRUELA EXTERNA [ENGATE RÁPIDO - F4,5]",0,Almox Mont Carretas
+Conj. intermediario,SETOR,028935,LUVA DE UNIÃO - ENGATE CBH 8T,0,Almox Mont Carretas
+Conj. intermediario,SETOR,028937,BUCHA DA LUVA DE UNIÃO - ENGATE - CBH 8 T,0,Almox Mont Carretas
+Conj. intermediario,SETOR,028938,PINO DA LUVA DE UNIÃO - ENGATE CBH 8T,0,Almox Mont Carretas
+Conj. intermediario,SETOR,035976,PINO DE TRAVA [TRAVA DE BASCULAMENTO - CBH/CBHM],0,Almox Mont Carretas
+Conj. intermediario,SETOR,035979,CHAPA DE FIXAÇÃO MOLA [TRAVA DO TANDEM - CBH/CBHM],0,Almox Mont Carretas
+Conj. intermediario,SETOR,428360,ELO CORRENTE COMPLEM-CARR C2,0,Almox Mont Carretas
+Conj. intermediario,SETOR,428383,CORRENTE TENSOR 855 - CARROC,0,Almox Mont Carretas
+Conj. intermediario,SETOR,428395,CORRENTE/PORTA CORR 995-CARROC,0,Almox Mont Carretas
+Conj. intermediario,SETOR,443359,PINO TRAVA RÉ [CBH/CBHM/F/FA/FTC],0,Almox Mont Carretas
+Conj. intermediario,SETOR,443876,CORPO DO PINO TRAS.     UVA,0,Almox Mont Carretas
+Conj. intermediario,SETOR,457000,TENSOR CORRENTE - CORROC  CAR,0,Almox Mont Carretas
+Conj. intermediario,SETOR,459252,TRAVA RÉ [CBH/CBHM/F/FA/FTC],0,Almox Mont Carretas
+Conj. intermediario,SETOR,464843,TRAVA EMBOLO - CHASSI CBHM/ICAM FA,0,Almox Mont Carretas
+Conj. intermediario,SETOR,483254,CORPO PINO TRAS BAL   TANDEM  FA4/6,0,Almox Mont Carretas
+Conj. intermediario,SETOR,496832,TUBO ESC 2   GALV            TANQUE,0,Almox Mont Carretas
+Conj. intermediario,SETOR,222197,CONTRA PINO  1/8  X 1,0,Almox Mont Carretas
+Conj. intermediario,SETOR,256328,PARAF FRANC 5/16X1.1/2 C/PO.SX.,0,Almox Mont Carretas
+Conj. intermediario,SETOR,272504,PORCA CAST 1.1/2 S/COROA - UNC ZB,0,Almox Mont Carretas
+Conj. intermediario,SETOR,274604,"PORCA SEX     3/8""  UNC  ZB",0,Almox Mont Carretas
+Lateral,A,025562,"REFORÇO INF - FECHAMENTO DIANT - S4,0/3,2M",0,Almox Mont Carretas
+Lateral,A,460230,CANT INF TAMPA TRASEIRA  CBH,0,Almox Mont Carretas
+Lateral,A,014527,FECH LAT TAMPA TRAS  M09 (10.000) CBHM,0,Almox Mont Carretas
+Lateral,A,013213,"FECHAM LAT TAMPA TRAS 1,10m  CBHM",0,Almox Mont Carretas
+Lateral,A,031226,COLUNA TAMPA TRASEIRA - CBH (ABERT. LATERAL) M18,0,Almox Mont Carretas
+Lateral,A,031227,CANTONEIRA INFERIOR TAMPA TRAS - CBH M18,0,Almox Mont Carretas
+Lateral,A,032368,"FECHAMENTO LATERAL [TAMPA TRASEIRA - CBH ""USO GERAL"" M21]",0,Almox Mont Carretas
+Lateral,A,032548,REFORÇO INFERIOR [FECHAMENTO DIANTEIRO - F6C M22],0,Almox Mont Carretas
+Lateral,A,034160,"REFORÇO INF - FECHAMENTO DIANT - S4,0/3,2M M23",0,Almox Mont Carretas
+Lateral,A,493296,FECHAM LAT TAMPA TRAS 90 CM  CBHM,0,Almox Mont Carretas
+Lateral,A,493338,CANT INF TAMPA TRAS 90 CM  CBHM,0,Almox Mont Carretas
+Lateral,B,466608,FECHAM LAT TAMPA TRAS 60CM (3500)  CBH,0,Almox Mont Carretas
+Lateral,B,031024,"COLUNA DO FECHAM DIANTEIRO - S4,0/3,2MD",0,Almox Mont Carretas
+Lateral,B,031050,"COLUNA GIGANTE GRANELEIRO - G3,20MD",0,Almox Mont Carretas
+Lateral,B,030996,"COLUNA DO FECHAM DIANTEIRO (ALT 60) (FR) - S4,0/3,2MD",0,Almox Mont Carretas
+Lateral,B,031862,COLUNA _ FECHAMENTO DIANTEIRO _ UVA M20,0,Almox Mont Carretas
+Lateral,B,033670,COLUNA [FECHAMENTO DIANT METALICO - F6C M22],0,Almox Mont Carretas
+Lateral,B,031031,"LONGARINA ESTRUTURA DA GRADE LAT. - S3,20MD",0,Almox Mont Carretas
+Lateral,C,030375,FIXADOR LAT INFERIOR - TAMPA LATERAL - CBH (M17),0,Almox Mont Carretas
+Lateral,C,030376,FIXADOR CHAPA LAT SUP - TAMPA LATERAL - CBH (M17),0,Almox Mont Carretas
+Lateral,CORPOS,014539,CHAP SUP TAMPA TRAS  M09 (10.000) CBHM,0,Almox Mont Carretas
+Lateral,CORPOS,025685,"CORPO - FECHAMENTO LATERAL - S3,20M",0,Almox Mont Carretas
+Lateral,CORPOS,025955,"CORPO FECHAM LATERAL S4,0M",0,Almox Mont Carretas
+Lateral,CORPOS,026336,"CORPO DO FECHAMENTO LATERAL SUPERIOR - G4,0M",0,Almox Mont Carretas
+Lateral,CORPOS,029686,"CORPO - FECHAMENTO DIANT - S4,0ER",0,Almox Mont Carretas
+Lateral,CORPOS,029688,"CORPO - FECHAMENTO TRASEIRO - S4,0ER",0,Almox Mont Carretas
+Lateral,CORPOS,029736,"CORPO DO FECHAMENTO TRASEIRO SUPERIOR - G4,0ER",0,Almox Mont Carretas
+Lateral,CORPOS,030553,CORPO DA TAMPA LATERAL M17 - TAMPA LATERAL (M17) CBH 6,0,Almox Mont Carretas
+Lateral,CORPOS,030751,CORPO DA TAMPA LATERAL M17 - TAMPA LATERAL (M17) CBH 4,0,Almox Mont Carretas
+Lateral,CORPOS,031223,PARTE INF. CHAPA TAMPA TRAS. (ABERT. LATERAL) - CBH M18,0,Almox Mont Carretas
+Lateral,CORPOS,031224,PARTE SUP. CHAPA TAMPA TRAS. (ABERT. LATERAL) - CBH M18,0,Almox Mont Carretas
+Lateral,CORPOS,031229,CHAPEAM. FRONTAL FECHAM. DIANTEIRO SUPERIOR (M18) CBH,0,Almox Mont Carretas
+Lateral,CORPOS,031861,CORPO _ FECHAMENTO DIANTEIRO _ UVA M20,0,Almox Mont Carretas
+Lateral,CORPOS,032367,CHAPEAMENTO [TAMPA TRASEIRA - CBH UG M21],0,Almox Mont Carretas
+Lateral,CORPOS,032692,CORPO _ FECHAMENTO DIANTEIRO _ MANGA M22,0,Almox Mont Carretas
+Lateral,CORPOS,033020,CORPO [PLATAFORMA METÁLICA FA6F],0,Almox Mont Carretas
+Lateral,CORPOS,033671,CHAPEAMENTO [FECHAMENTO DIANT METALICO - F6C],0,Almox Mont Carretas
+Lateral,CORPOS,034251,"CHAPEAMENTO TAMPA TRAS 1,10m (5000) CBHM",0,Almox Mont Carretas
+Lateral,CORPOS,425941,CHAP LATERAL DIANT (4500)  CBHM,0,Almox Mont Carretas
+Lateral,CORPOS,460394,CHAP GRADE DIANT 45 CM (5000)  CBH,0,Almox Mont Carretas
+Lateral,CORPOS,464259,CHAPEAM INFERIOR  - TAMP TRAS (8000) CBH,0,Almox Mont Carretas
+Lateral,CORPOS,466566,CHAPEM GRADE LAT 60CM  (3500) CBH,0,Almox Mont Carretas
+Lateral,CORPOS,466610,CHAPEM TAMPA TRAS 60CM (3500)  CBH,0,Almox Mont Carretas
+Lateral,CORPOS,466633,CHAPEM GRADE DIANT 60CM  (3500) CBH,0,Almox Mont Carretas
+Lateral,CORPOS,493107,CHAPEAM - GRADE LATERAL 45 CM  CBHM,0,Almox Mont Carretas
+Lateral,CORPOS,493211,CHAPEAM TAMPA TRASEIRA (4500)  CBHM,0,Almox Mont Carretas
+Lateral,D,494501,ABA LATERAL TAMPA TRAS (4500)  CBHM,0,Almox Mont Carretas
+Lateral,D,031059,FECHAM LATERAL GRADE 60 cm - CARROCERIA MADEIRA,0,Almox Mont Carretas
+Lateral,D,031081,"ENGATE GRADE - ESTRUTURA GRADE TRASEIRA SUPERIOR - S3,2/4,0MD",0,Almox Mont Carretas
+Lateral,D,025566,"SUPORTE - FECHAM TRASEIRO  (FR) - S4,0/3,2M",0,Almox Mont Carretas
+Lateral,D,031017,"FECHAMENTO LATERAL 45cm - ESTRUTURA GRADE TRASEIRA - S3,2/4,0MD",0,Almox Mont Carretas
+Lateral,D,031000,"FECHAMENTO LATERAL 60cm - ESTRUTURA GRADE TRASEIRA - S3,2/4,0MD",0,Almox Mont Carretas
+Lateral,E,031238,FECHAM. FUEIRO - FUEIRO DIANT. SUPERIOR - CBH M18,0,Almox Mont Carretas
+Lateral,E,026453,FECHAM LATERAL GRADE 45 cm,0,Almox Mont Carretas
+Lateral,E,032597,TRAVA DA CORRENTE       - TAMPA TRAS       CBHM,0,Almox Mont Carretas
+Lateral,E,031217,FECHAM. SUP. FUEIRO - FUEIRO DIANT. SUPERIOR - CBH M18,0,Almox Mont Carretas
+Lateral,E,031047,ENGATE LATERAL - GRADE GRANELEIRO F4/F6 MD,0,Almox Mont Carretas
+Lateral,E,030993,"ENGATE GRADE - ESTRUTURA GRADE TRASEIRA - S3,2/4,0MD",0,Almox Mont Carretas
+Lateral,E,031533,LONGARINA - ESTRUTURA GRADE DIANTEIRA - CENOURA M19,0,Almox Mont Carretas
+Lateral,F,466578,FECHAM LAT GRADE 60 CM (3500)  CBH,0,Almox Mont Carretas
+Lateral,F,031018,"COLUNA LATERAL ALT 45- ESTRUTURA GRADE TRASEIRA/LATERAL - S3,2/4,0MD",0,Almox Mont Carretas
+Lateral,F,030992,"COLUNA LATERAL ALT 60- ESTRUTURA GRADE TRASEIRA/LATERAL - S3,2/4,0MD (ALT60)",0,Almox Mont Carretas
+Lateral,G,425953,FECHAMENTO LAT GRADE 45 CM  CBHM,0,Almox Mont Carretas
+Lateral,G,031060,"FECHAMENTO DA GRADE LATERAL - ALT 45 - S3,20/4,00MD",0,Almox Mont Carretas
+Lateral,H,429764,APOIO FEMEA ENG  -  GRADES  CBHM,0,Almox Mont Carretas
+Lateral,H,425977,FEMEA ENGATE  -  GRADES  CBHM,0,Almox Mont Carretas
+Lateral,H,030991,"LONGARINA ESTRUTURA DA GRADE LAT. - S4,0MD",0,Almox Mont Carretas
+Lateral,I,030451,FECHAM LAT GRADE M17 - TAMPA LATERAL (M17) CBH,0,Almox Mont Carretas
+Lateral,I,240642,GANCHO MENOR P/ F.RÁPIDO CÓD.FT 0040-C,0,Almox Mont Carretas
+Lateral,I,240494,GANCHO C/ REBAIXO P/ F.RÁPIDO CÓD.ESP482,0,Almox Mont Carretas
+Lateral,I,030991,"LONGARINA ESTRUTURA DA GRADE LAT. - S4,0MD",0,Almox Mont Carretas
+Lateral,J,018338,ENGATE S/TRAVA -  GRADES  CBHM,0,Almox Mont Carretas
+Lateral,K,240493,FECHO RÁP. P/CARR. LE CÓD.ESP481E,0,Almox Mont Carretas
+Lateral,L,494665,PINO FUEIRO       CBHM,0,Almox Mont Carretas
+Lateral,L,034210,ESBARRO DO ENGATE [GRADE LATERAL - F/FA],0,Almox Mont Carretas
+Lateral,M,031225,DOBRADIÇA SUP. TAMPA TRAS. ABERT. LATERAL - CBH M18,0,Almox Mont Carretas
+Lateral,M,028681,BUCHA DOBRADIÇA LATERAL  CBH/CBHM,0,Almox Mont Carretas
+Lateral,M,028764,ESPAÇADOR TAMPA TRASEIRA  CBH/CBHM,0,Almox Mont Carretas
+Lateral,M,494495,DOBRADIÇA TAMPA TRASEIRA  CBH/CBHM,0,Almox Mont Carretas
+Lateral,N,031285,"COLUNA(TUBO) INTERMEDIÁRIA DO GIGANTE S3,20M",0,Almox Mont Carretas
+Lateral,N,034158,"LONGARINA - ESTRUTURA GRADE DIANT/TRAS - S4,0MD M23",0,Almox Mont Carretas
+Lateral,N,031286,"COLUNA(TUBO) DO GIGANTE GRANELEIRO - G4,0ER",0,Almox Mont Carretas
+Lateral,O,033019,TRAVESSA SUPERIOR [FECHAM DIANT METÁLICO - FA6F],0,Almox Mont Carretas
+Lateral,O,025563,"TRAVESSA SUP - FECHAMENTO DIANT - S4,0/3,2M",0,Almox Mont Carretas
+Lateral,O,025561,"COLUNA - FECHAMENTO DIANT (FR) - S4,0/3,2M",0,Almox Mont Carretas
+Lateral,O,032547,COLUNA [FECHAMENTO DIANTEIRO - FA6F M22],0,Almox Mont Carretas
+Lateral,O,030178,TRAVESSA SUP - FECHAMENTO DIANT - CARR UVA M16,0,Almox Mont Carretas
+Lateral,O,032693,TRAVESSA SUPERIOR - FECHAMENTO DIANTEIRO - MANGA M22,0,Almox Mont Carretas
+Lateral,O,030421,"TRAVESSA SUPERIOR - FECHAMENTO DIANT - CARR. METÁLICA CENOURA (4,0 X 2,10m)",0,Almox Mont Carretas
+Lateral,PALETE,035515,PLACA CEMAG [GRADE - F4_F6],0,Almox Mont Carretas
+Lateral,PALETE,031237,CHAPEAMENTO DO FUEIRO M18 - FUEIRO DIANTEIRO SUPERIOR - CBH (M18),0,Almox Mont Carretas
+Lateral,SETOR,025678,COMPLEMENTO INT. MENOR - CARROCERIA METALICA,0,Almox Mont Carretas
+Lateral,SETOR,025886,"COLUNA INTERMEDIÁRIA DO GIGANTE S3,20M",0,Almox Mont Carretas
+Lateral,SETOR,025890,"COLUNA GIGANTE GRANELEIRO - G3,20M",0,Almox Mont Carretas
+Lateral,SETOR,028845,CORRENTE 400MM - TAMPA TRASEIRA CBH,0,Almox Mont Carretas
+Lateral,SETOR,030402,"COLUNA DO GIGANTE GRANELEIRO - G4,0ER",0,Almox Mont Carretas
+Lateral,SETOR,031038,"APOIO DA CORRENTE - LATERAL S4,0M",0,Almox Mont Carretas
+Lateral,SETOR,226105,CORRENTE ELO 3/16 F. POLIDO,0,Almox Mont Carretas
+Lateral,SETOR,240492,FECHO RÁP. P/CARR. LD CÓD.ESP481D,0,Almox Mont Carretas
+Lateral,SETOR,026454,FECHAM LATERAL GRADE 60 cm,0,Almox Mont Carretas
+Chassi,A,030538,FECHAMENTO TRAS LONGARINA,0,Almox Mont Carretas
+Chassi,A,030316,REFORÇO DO SUPORTE DIANT M17 CHASSI CBHM/CBH,0,Almox Mont Carretas
+Chassi,A,031512,REFORÇO DO SUPORTE DIANT M17 CHASSI CBHM 6000 CAFEEIRA,0,Almox Mont Carretas
+Chassi,A,025539,REFORÇO LONGARINA-CHASSI - F4 M98,0,Almox Mont Carretas
+Chassi,A,030537,MÃO FRANCESA DIANTEIRA,0,Almox Mont Carretas
+Chassi,B,453407,SUP FEIXE MOLA DIAN-CHASSI  U4P2,0,Almox Mont Carretas
+Chassi,B,025745,APOIO SUPORTE DE MOLAS - CHASSI F6 CS M14,0,Almox Mont Carretas
+Chassi,C,032372,REFORÇO DA LONGARINA M17 CBHM (MENOR),0,Almox Mont Carretas
+Chassi,C,032373,"TRANSVERSINA DIANTEIRA M17 CHASSI CBHM/CBH 1/4""",0,Almox Mont Carretas
+Chassi,C,031509,"LONGARINA - CHASSI SIMPLES SS - CBH 6,0 7M³ 01 EIXO",0,Almox Mont Carretas
+Chassi,C,032353,COMPLEMENTO DO SUPORTE FRONTAL [CHASSI COMPLETO - CBH],0,Almox Mont Carretas
+Chassi,CAIXA 2,409728,TRANSV TRASEIRA    CBHM,0,Almox Mont Carretas
+Chassi,CARRINHO 1,423154,REFORCO TRANSV DIANT - CHASSI  FA6,0,Almox Mont Carretas
+Chassi,CARRINHO 1,423075,REFORCO LONG - CHASSI   FA6,0,Almox Mont Carretas
+Chassi,CARRINHO 1,424109,TRANSV TRAS INT - CHASSI   FA6,0,Almox Mont Carretas
+Chassi,CARRINHO 1,034168,APOIO DA SAPATA [CHASSI - FTC4300-1E M22],0,Almox Mont Carretas
+Chassi,CARRINHO 1,025235,TRANSVERSINA CENTRAL - CHASSI FA6 RD,0,Almox Mont Carretas
+Chassi,CARRINHO 1,451344,TRANSV TRAS - CHASSI     FA6,0,Almox Mont Carretas
+Chassi,CARRINHO 1,025236,APOIO DA SAPATA - CHASSI FA6 RD,0,Almox Mont Carretas
+Chassi,CARRINHO 1,447286,TRANSVERSINA - CHASSI (M98)  FA,0,Almox Mont Carretas
+Chassi,CARRINHO 1,034167,TRANSVERSINA CENTRAL [CHASSI - FTC4300-1E M22],0,Almox Mont Carretas
+Chassi,CARRINHO 1,423191,TRANSV DIANT INTERM-CHASSI  FA6,0,Almox Mont Carretas
+Chassi,CARRINHO 1,451540,TRANSV DIANT - CHASSI   FA6,0,Almox Mont Carretas
+Chassi,CARRINHO 10,025454,TUBO PLACA - CHASSI        CBH-8,0,Almox Mont Carretas
+Chassi,CARRINHO 10,030494,LONGARINA [CHASSI - CBH/CBHM-2E],0,Almox Mont Carretas
+Chassi,CARRINHO 10,028743,"SUPORTE DO CILINDRO - CHASSI CBH 6,0 2E",0,Almox Mont Carretas
+Chassi,CARRINHO 10,033920,SUPORTE TRASEIRO  [CHASSI - CBH CBHM 2E RS/T],0,Almox Mont Carretas
+Chassi,CARRINHO 10,030793,FECHAM TRAS LONGARINA - CBHM 2E M17,0,Almox Mont Carretas
+Chassi,CARRINHO 10,030539,TRANSVERSINA CENTRAL,0,Almox Mont Carretas
+Chassi,CARRINHO 10,030509,"TRANSV INTERMED TRASEIRA - CHASSI CBH 6,0 2E",0,Almox Mont Carretas
+Chassi,CARRINHO 10,023243,ESBARRO   CHASSI CBHM 2 EIXOS,0,Almox Mont Carretas
+Chassi,CARRINHO 10,028739,FECHAMENTO LATERAL- CBHM,0,Almox Mont Carretas
+Chassi,CARRINHO 10,030574,"PLACA DE APOIO M17 - CHASSI CBH 6,0 2E",0,Almox Mont Carretas
+Chassi,CARRINHO 10,022469,ESBARRO LIMITADOR DE GIRO      CHASSI CBHM 2 EIXOS,0,Almox Mont Carretas
+Chassi,CARRINHO 10,028746,TRANSV INTERM CBH 6 02 EIXOS TANDEM,0,Almox Mont Carretas
+Chassi,CARRINHO 10,030808,TRANSV TRASEIRA CBH 6 02 EIXOS TANDEM,0,Almox Mont Carretas
+Chassi,CARRINHO 11,030424,"REFORÇO DA LONGARINA - CHASSI SIMPLES SS - CBH 6,0T 01 EIXO",0,Almox Mont Carretas
+Chassi,CARRINHO 12,030444,SUPORTE TRASEIRO - CHASSI CBH 6 2 EIXOS (M17),0,Almox Mont Carretas
+Chassi,CARRINHO 12,030508,REFORÇO LONG CHASSI 2 EIXOS,0,Almox Mont Carretas
+Chassi,CARRINHO 12,030727,SUPORTE TRASEIRO INTERNO - CHASSI CBH 6 2 EIXOS (M17),0,Almox Mont Carretas
+Chassi,CARRINHO 12,030540,"TRANSV DIANT - CHASSI CBH 6,0 2E",0,Almox Mont Carretas
+Chassi,CARRINHO 2,426544,LONGARINA [CHASSI - FA2],0,Almox Mont Carretas
+Chassi,CARRINHO 2,032745,ALÇA - [TRAVA DE BASCULAMENTO FA4FB],0,Almox Mont Carretas
+Chassi,CARRINHO 2,458880,TRANSV DIANT - CHASSI    FA3FB,0,Almox Mont Carretas
+Chassi,CARRINHO 2,025235,TRANSVERSINA CENTRAL - CHASSI FA6 RD,0,Almox Mont Carretas
+Chassi,CARRINHO 2,422400,LONGARINA    CHASSI   FA6,0,Almox Mont Carretas
+Chassi,CARRINHO 2,442215,PORTA ICAMENTO CHASSI (M98) FA,0,Almox Mont Carretas
+Chassi,CARRINHO 2,032746,PINO DE TRAVAMENTO [TRAVA DE BASC FA4FB],0,Almox Mont Carretas
+Chassi,CARRINHO 2,459434,GUIA TRAVAMENTO CHASSI (M98)  FA,0,Almox Mont Carretas
+Chassi,CARRINHO 2,032480,REFORÇO DA TRANSV. DIANTEIRA [CHASSI - FA4 FIXA],0,Almox Mont Carretas
+Chassi,CARRINHO 2,032481,SUPORTE DE TRAVAMENTO [CHASSI - FA4 FIXA],0,Almox Mont Carretas
+Chassi,CARRINHO 2,459240,SUP TRAVAMENTO CHASSI (M98) FA,0,Almox Mont Carretas
+Chassi,CARRINHO 2,031803,BUCHA ROSCADA FIXAÇÃO - FA FB FIXA,0,Almox Mont Carretas
+Chassi,CARRINHO 2,036009,LONGARINA [CHASSI SS - FTC4300R SS TANDEM],0,Almox Mont Carretas
+Chassi,CARRINHO 2,447328,TRANSV CENTRAL C/M - CHASSI (M98)  FP2,0,Almox Mont Carretas
+Chassi,CARRINHO 2,448606,REFORÇO - CHASSI                 FA3FB,0,Almox Mont Carretas
+Chassi,CARRINHO 2,450923,REFORCO - CHASSI (M98)  FA,0,Almox Mont Carretas
+Chassi,CARRINHO 2,459290,LIMITADOR PINO CHASSI (M98)  FA,0,Almox Mont Carretas
+Chassi,CARRINHO 2,459318,PORTA MOLA  CHASSI (M98)  FA,0,Almox Mont Carretas
+Chassi,CARRINHO 2,479068,LONGARINA - CHASSI  (M98)  FA,0,Almox Mont Carretas
+Chassi,CARRINHO 2,480691,REFORÇO  DIANT - CHASSI  FA,0,Almox Mont Carretas
+Chassi,CARRINHO 3,023966,TRANSVERSINA DIANTEIRA   CHASSI  CBHF (M12),0,Almox Mont Carretas
+Chassi,CARRINHO 3,025196,REFORÇO DA TRANSVERSINA DIANTEIRA CHASSI CBHF (M12),0,Almox Mont Carretas
+Chassi,CARRINHO 3,025551,REFORÇO DA LONGARINA - CHASSI CBHF M12,0,Almox Mont Carretas
+Chassi,CARRINHO 3,024004,LONGARINA   CHASSI  CBHF (M12),0,Almox Mont Carretas
+Chassi,CARRINHO 3,023978,TRANSV INTERMEDIÁRIA  CHASSI  CBHF (M12),0,Almox Mont Carretas
+Chassi,CARRINHO 4,442409,TRANSV TRAS - CHASSI   CARR UVA,0,Almox Mont Carretas
+Chassi,CARRINHO 4,442355,TRANSV CENTRAL - CHASSI     UVA,0,Almox Mont Carretas
+Chassi,CARRINHO 4,493132,TRANSV INTERM    CHASSI      UVA,0,Almox Mont Carretas
+Chassi,CARRINHO 4,447134,REF. TRANSV. DIANT. CHASSI     UVA,0,Almox Mont Carretas
+Chassi,CARRINHO 4,449611,TRANSV CENTRAL       CHASSI   CARR UVA,0,Almox Mont Carretas
+Chassi,CARRINHO 4,493132,TRANSV INTERM    CHASSI      UVA,0,Almox Mont Carretas
+Chassi,CARRINHO 4,433846,REFORÇO LONGARINA CHASSI     UVA,0,Almox Mont Carretas
+Chassi,CARRINHO 4,449880,REFORCO TRAS    CHASSI   CARR UVA,0,Almox Mont Carretas
+Chassi,CARRINHO 4,442355,TRANSV CENTRAL - CHASSI     UVA,0,Almox Mont Carretas
+Chassi,CARRINHO 4,449647,REFORCO INT ENGATE  CHASSI  CARR UVA,0,Almox Mont Carretas
+Chassi,CARRINHO 4,464806,ENGATE COMBOIO            U4,0,Almox Mont Carretas
+Chassi,CARRINHO 4,476535,TRANSV. DIANT. CHASSI     UVA,0,Almox Mont Carretas
+Chassi,CARRINHO 4,485860,REF ENGATE - COMBOIO      U4,0,Almox Mont Carretas
+Chassi,CARRINHO 5,029946,LONGARINA DO CHASSI - ER4 C/ E S/ MOLA,0,Almox Mont Carretas
+Chassi,CARRINHO 5,479202,TRANSV SUPORTE - CHASSI (M98)  F4,0,Almox Mont Carretas
+Chassi,CARRINHO 5,455337,ESBARRO - CHASSI/TANQUE   FT5,0,Almox Mont Carretas
+Chassi,CARRINHO 5,469361,FECHAM LAT CHASSI     (M98)F6,0,Almox Mont Carretas
+Chassi,CARRINHO 5,479500,TRANSV CENTRAL - CHASSI (M98)  F4,0,Almox Mont Carretas
+Chassi,CARRINHO 5,478090,SUSTENTACAO COMBOIO  (M98)  F6,0,Almox Mont Carretas
+Chassi,CARRINHO 5,030918,REFORÇO TRAS LONGARINA - F6 COM MOLA M17,0,Almox Mont Carretas
+Chassi,CARRINHO 5,475579,PLACA APOIO - CHASSI       FT3,0,Almox Mont Carretas
+Chassi,CARRINHO 5,035943,LONGARINA [CHASSI - FTC4300R],0,Almox Mont Carretas
+Chassi,CARRINHO 5,492980,COMPLEM CHASSI     FA3FB,0,Almox Mont Carretas
+Chassi,CARRINHO 6,029679,TRANVERSINA DIANTEIRA - CHASSI ER6,0,Almox Mont Carretas
+Chassi,CARRINHO 6,446178,TRANSV CENTR CHASSI        (M98)F6,0,Almox Mont Carretas
+Chassi,CARRINHO 6,418134,TRANSV SUP CS-CHASSI (M98) F6,0,Almox Mont Carretas
+Chassi,CARRINHO 6,025743,SUPORTE FIX. DA PLATAF. - CHASSI F6 CS M14,0,Almox Mont Carretas
+Chassi,CARRINHO 6,025734,TRANSVERSINA DIANTEIRA - CHASSI F6SS M14,0,Almox Mont Carretas
+Chassi,CARRINHO 6,457656,REFORCO TUBO-CHASSI/TANQ   FT5,0,Almox Mont Carretas
+Chassi,CARRINHO 6,029678,TRANVERSINA TRASEIRA - CHASSI ER6,0,Almox Mont Carretas
+Chassi,CARRINHO 6,496509,TUBO PLACA - CHASSI        FT5,0,Almox Mont Carretas
+Chassi,CARRINHO 6,025735,TRANSV. SUPORTE TRASEIRO - CHASSI F6SS M14,0,Almox Mont Carretas
+Chassi,CARRINHO 6,029669,LONGARINA - CHASSI CARRETA ER6,0,Almox Mont Carretas
+Chassi,CARRINHO 7,480680,REFORÇO  TRAS - CHASSI  FA,0,Almox Mont Carretas
+Chassi,CARRINHO 7,480630,REFORÇO  - 5ª RODA (M98)   F4/6,0,Almox Mont Carretas
+Chassi,CARRINHO 7,026425,PLACA DE APOIO - CHASSI (M98)   F4/6,0,Almox Mont Carretas
+Chassi,CARRINHO 8,025740,FECHAM. TRANSV. SUPORTE BALANCIM - CHASSI F6SS M14,0,Almox Mont Carretas
+Chassi,CARRINHO 8,488811,FIXACAO LAT COMBOIO       U4,0,Almox Mont Carretas
+Chassi,CARRINHO 8,488069,FIXADOR - COMBOIO  (M98) F6,0,Almox Mont Carretas
+Chassi,CARRINHO 8,025749,COMPLEM. TRASV. SUP. BALANCIM - CHASSI F6SS M14,0,Almox Mont Carretas
+Chassi,CARRINHO 8,025739,COMPLEM. TRASV. SUP. TRASEIRO - CHASSI F6SS M14,0,Almox Mont Carretas
+Chassi,CARRINHO 8,025742,FECHAM. TRANSV. SUPERIOR TRAS. - CHASSI F6SS M14,0,Almox Mont Carretas
+Chassi,CARRINHO 8,035949,BASE DO ESGUICHO [CHASSI - FTC4300R M24],0,Almox Mont Carretas
+Chassi,CARRINHO 8,429399,BASE ESGUICHO - KIT CONTRA INCENDIO   TA,0,Almox Mont Carretas
+Chassi,CARRINHO 9,025484,TRANSV  INTERMEDIARIA (A PARTIR DE AGOSTO/2013)  CHASSI CBHM,0,Almox Mont Carretas
+Chassi,CARRINHO 9,406650,SUPORTE DO TUBO  CBHM,0,Almox Mont Carretas
+Chassi,CARRINHO 9,469490,SUPORTE DA MANGUEIRA    6000  CBHM,0,Almox Mont Carretas
+Chassi,CARRINHO 9,031515,TRANSVERSINA DIANTEIRA INTERM. M19 - CHASSI CBHM 6000 CAFEEIRA,0,Almox Mont Carretas
+Chassi,CARRINHO 9,030750,TRANSV DIANT - CHASSI (6000) CBHM M17,0,Almox Mont Carretas
+Chassi,CARRINHO 9,031557,TRANSV DIANT - CHASSI (6000) CBHM M19 CAFEEIRA,0,Almox Mont Carretas
+Chassi,CARRINHO 9,030425,"LONGARINA - CHASSI SIMPLES SS - CBH 6,0T 01 EIXO",0,Almox Mont Carretas
+Chassi,CARRINHO 9,031485,LONGARINA - CHASSI SIMPLES SS - CBHM 6000 CAFEEIRA,0,Almox Mont Carretas
+Chassi,D,030348,REFORÇO DA LONGARINA M17 CBHM,0,Almox Mont Carretas
+Chassi,E,409686,TRANSV  INTERMEDIARIA   CBHM,0,Almox Mont Carretas
+Chassi,E,425760,SUPORTE DO CILINDRO       CBHM,0,Almox Mont Carretas
+Chassi,E,031045,SAPATA MAIOR CHASSI  CBHM,0,Almox Mont Carretas
+Chassi,E,409753,SUPORTE TRASEIRO   CBHM,0,Almox Mont Carretas
+Chassi,E,412302,"ARRUELA LISA 1/2""",0,Almox Mont Carretas
+Chassi,E,460760,DISTANCIADOR DIANTEIRO F MOLAS   CBH,0,Almox Mont Carretas
+Chassi,E,460771,DISTANCIADOR TRASEIRO  F MOLAS   CBH,0,Almox Mont Carretas
+Chassi,E (CAIXA 2),460758,APOIO SUP FEIXE DE MOLAS     CBH,0,Almox Mont Carretas
+Chassi,E (CAIXA 3),480952,DISTANC SUP MOLA - CHASSI  FA,0,Almox Mont Carretas
+Chassi,ESTANTE ALTA,464843,TRAVA EMBOLO - CHASSI CBHM/ICAM FA,0,Almox Mont Carretas
+Chassi,ESTANTE ALTA,030589,PROTEÇÃO DO MACACO- CHASSI  CBH/CBHM M17,0,Almox Mont Carretas
+Chassi,ESTANTE ALTA,409820,PRENDEDOR DO TUBO [CBH/CBHM],0,Almox Mont Carretas
+Chassi,ESTANTE ALTA,476110,REFORCO INTERNO - COMBOIO M98,0,Almox Mont Carretas
+Chassi,ESTANTE ALTA,452002,REFORCO TRAN TRAS-COMB(M98)F6,0,Almox Mont Carretas
+Chassi,ESTANTE CHASSI,031514,REFORÇO DA LONGARINA M19 - CBHM 6000 CAFEEIRA,0,Almox Mont Carretas
+Chassi,ESTANTE CHASSI,030469,FECHAMENTO MENOR DO SUPORTE - CHASSI CBH 6 2 EIXOS (M17),0,Almox Mont Carretas
+Chassi,ESTANTE CHASSI,030318,TRANSVERSINA DIANTEIRA M17 CHASSI CBHM/CBH,0,Almox Mont Carretas
+Chassi,ESTANTE CHASSI,465422,FECHAM TRAS LONG   CHASSI  CBHM,0,Almox Mont Carretas
+Chassi,ESTANTE CHASSI,460758,APOIO SUP FEIXE DE MOLAS     CBH,0,Almox Mont Carretas
+Chassi,ESTANTE CHASSI,030721,COMPLEMENTO DA LONGARINA - CHASSI - CBH/CBHM M17,0,Almox Mont Carretas
+Chassi,ESTANTE CHASSI,031510,"TRANSVERSINA DIANTEIRA M19 - CHASSI CBH 6,0T 7M³",0,Almox Mont Carretas
+Chassi,F,030317,LONGARINA M17 CHASSI CBHM/CBH,0,Almox Mont Carretas
+Chassi,CAIXA 1,429478,TRANSV TRAS-CHASSI (6000) CBHM,0,Almox Mont Carretas
+Chassi,SETOR,023516,ENGATE VARÃO DE TRAVA    CBHM 2 EIXOS,0,Almox Mont Carretas
+Chassi,SETOR,025237,FECHAMENTO DO APOIO - CHASSI FA6 RD,0,Almox Mont Carretas
+Chassi,SETOR,029964,"APOIO DA TAMPA - CAÇAMBA CBH 6,0 C/ ABERTURA LATERAL",0,Almox Mont Carretas
+Chassi,SETOR,033944,REFORCO LONGARINA [CHASSI - FTC4300-1E M22],0,Almox Mont Carretas
+Chassi,SETOR,034062,ESBARRO LIMITADOR DE GIRO [CHASSI RS/T - CBH7-2E M22],0,Almox Mont Carretas
+Chassi,SETOR,411218,APOIO MOLA - CHASSI            CAR,0,Almox Mont Carretas
+Chassi,SETOR,212093,"ARRUELA LISA 3/4"" CHAPA 3,75MM",0,Almox Mont Carretas
+Chassi,SETOR,423348,FECHAM LAT TR DIANT - CHASSI  FA6,0,Almox Mont Carretas
+Chassi,SETOR,446841,REFORCO              CHASSI (M98)  F4/6,0,Almox Mont Carretas
+Chassi,SETOR,449337,REFORÇO CHASSI - TUBO SUP ROT,0,Almox Mont Carretas
+Chassi,SETOR,455623,ESBARRO TRAVA - CHASSI (M98)  FP2,0,Almox Mont Carretas
+Chassi,SETOR,457670,REFORÇO SUP MOLA-CHASSI FA3,0,Almox Mont Carretas
+Chassi,SETOR,459057,TRAVA LOCALIZAC-BRACO SUP ROT,0,Almox Mont Carretas
+Chassi,SETOR,460783,TRAVA FEIXE DE MOLAS  - CHASSI CS   CBH,0,Almox Mont Carretas
+Chassi,SETOR,467704,ESBARRO LIMITADOR DE GIRO - 5ª RODA (M98)   F4/6,0,Almox Mont Carretas
+Chassi,SETOR,479172,TRANSV TRASEIRA - CHASSI (M98)  F6,0,Almox Mont Carretas
+Chassi,SETOR,479639,APOIO SUPORTE MOLAS - CHASSI (M98)  F4/6,0,Almox Mont Carretas
+Chassi,SETOR,479652,COMPLEMENTO APOIO - CHASSI (M98)  F4/6,0,Almox Mont Carretas
+Chassi,SETOR,480940,FECHAM DIST SUP MOLA - CHASSI  FA,0,Almox Mont Carretas
+Chassi,SETOR,492073,DIAFRAGMA FEIXE MOLA-5ROD U4,0,Almox Mont Carretas
+Chassi,SETOR,212028,"ARRUELA LISA 7/8""",0,Almox Mont Carretas
+Chassi,SETOR,212091,"ARRUELA LISA 3/8"" ZB CHAPA 1,5MM",0,Almox Mont Carretas
+Chassi,SETOR,212092,"ARRUELA LISA 1/2"" CHAPA 1/8"" ZB OU ZA",0,Almox Mont Carretas
+Chassi,SETOR,493673,REFORCO TRAVA       CHASSI FA,0,Almox Mont Carretas
+Chassi,SETOR,238260,MOLA TRAVA IÇAM. FA/FP/C,0,Almox Mont Carretas
+Chassi,SETOR,212300,"ARRUELA LISA 27MM POL. CHAPA 3/16""",0,Almox Mont Carretas
+Chassi,SETOR,212350,"ARR. DE PRES. MÉDIA - ZB 5/16""",0,Almox Mont Carretas
+Chassi,SETOR,212507,"ARR. DE PRES. MÉDIA - ZB 1/4""",0,Almox Mont Carretas
+Chassi,SETOR,222197,CONTRA PINO  1/8  X 1,0,Almox Mont Carretas
+Chassi,SETOR,222252,CONTRA PINO  3/16 X 2,0,Almox Mont Carretas
+Chassi,SETOR,222859,CONTRA PINO  3/16 X 3,0,Almox Mont Carretas
+Chassi,SETOR,257645,"PARAF ALLEN 1/4 X 2"" NC C/CAB.",0,Almox Mont Carretas
+Chassi,SETOR,258090,PARAF SEX   5/16X 3/4    UNC ZB,0,Almox Mont Carretas
+Chassi,SETOR,258416,PARAF SEX   5/16X 1.1/4    UNC,0,Almox Mont Carretas
+Chassi,SETOR,272504,PORCA CAST 1.1/2 S/COROA - UNC ZB,0,Almox Mont Carretas
+Chassi,SETOR,274252,"PORCA SEX    5/16""  UNC  ZB",0,Almox Mont Carretas
+Chassi,SETOR,274604,"PORCA SEX     3/8""  UNC  ZB",0,Almox Mont Carretas
+Tanque,A,475944,SUP FIXACAO PLAT - TANQUES M98,0,Almox Mont Carretas
+Tanque,A,426337,COLUNA LATERAL          T3/4/6,0,Almox Mont Carretas
+Tanque,B,491342,PORCA PORTA VISITA-T ELIP,0,Almox Mont Carretas
+Tanque,B,483928,CONJ FECHO P/ TANQUES FT,0,Almox Mont Carretas
+Tanque,B,418778,APOIO PRENDEDOR  -  FECHO   FT,0,Almox Mont Carretas
+Tanque,B,442276,PINO DOBRAD-DOBRAD PADRAO TQ,0,Almox Mont Carretas
+Tanque,B,444959,PINO FIXADOR - EIXO DIANT FT5,0,Almox Mont Carretas
+Tanque,B,445824,PINO - PRED TAMPA         T-FT,0,Almox Mont Carretas
+Tanque,B,414426,"PORTA TRAVA RE  FA3,5FBS",0,Almox Mont Carretas
+Tanque,C,496819,TUBO ESC  1.1/2  GALV     TANQUE,0,Almox Mont Carretas
+Tanque,C,411735,DEGRAU ESCADA                  TANQUES,0,Almox Mont Carretas
+Tanque,D,426301,COLUNA CENTRAL            T6,0,Almox Mont Carretas
+Tanque,D,033120,FECHAMENTO LONGARINA [TANQUE SIMPLES - FTC],0,Almox Mont Carretas
+Tanque,D,032904,OLHAL DE ELEVACÃO - TANQUE SIMPLES    FTC,0,Almox Mont Carretas
+Tanque,E,475956,SUP FIXACAO DIANT/TRAS PLAT - TANQUES M98,0,Almox Mont Carretas
+Tanque,F,444893,CANTONEIRA BASE-KIT CONTRA INCENDIO TA,0,Almox Mont Carretas
+Tanque,F,464296,LONG PLATAF LE BOMBA ANDRADE,0,Almox Mont Carretas
+Tanque,F,464338,LONGARINA LD  PLAT BOMBA ANDR,0,Almox Mont Carretas
+Tanque,F,491421,GUARDA FECHAM T3500/5000  TANQ,0,Almox Mont Carretas
+Tanque,F,465793,REFORCO ( PADRAO TANQUE ) FT,0,Almox Mont Carretas
+Tanque,F,440115,CORRIMAO MENOR           T3/4/6,0,Almox Mont Carretas
+Tanque,MESA TANQUE,469932,COLARINHO T ELÍPTICO        TAN,0,Almox Mont Carretas
+Tanque,MESA TANQUE,456469,TAMPAO - TQ ELIPTICO PADRAO,0,Almox Mont Carretas
+Tanque,PAREDE TANQUE,411851,CORIMAO - ESCADA                       T6,0,Almox Mont Carretas
+Tanque,SETOR,032901,FECHAMENTO DIANT./TRAS. [FTC 6500 M22],0,Almox Mont Carretas
+Tanque,SETOR,032889,QUEBRA-ONDAS [FTC 6500 M22],0,Almox Mont Carretas
+Tanque,SETOR,032732,CHAPEAMENTO [CORPO DO TANQUE - FTC6500 M22],0,Almox Mont Carretas
+Tanque,SETOR,032734,CHAPEAMENTO CENTRAL [CORPO DO TANQUE - FTC6500 M22],0,Almox Mont Carretas
+Tanque,C,496832,TUBO ESC 2   GALV            TANQUE,0,Almox Mont Carretas
+Tanque,SETOR,010029,APOIO PLAT BOMBA ANDR P/CHASSI 90CM,0,Almox Mont Carretas
+Tanque,SETOR,478970,LONG    TANQUE  (M98) T5/T6,0,Almox Mont Carretas
+Tanque,SETOR,032870,CORRIMAO MAIOR [GRADIL - FTC6500],0,Almox Mont Carretas
+Tanque,SETOR,035946,CORRIMAO MAIOR [GRADIL - FTC4300R M24],0,Almox Mont Carretas
+Tanque,SETOR,035947,LONGARINA [TANQUE SIMPLES - FTC4300R M24],0,Almox Mont Carretas
+Tanque,SETOR,417099,"BUCHA PORTA CABO - FREIO A3,",0,Almox Mont Carretas
+Tanque,SETOR,426386,COLUNA CENTRAL            T4,0,Almox Mont Carretas
+Tanque,SETOR,212091,"ARRUELA LISA 3/8"" ZB CHAPA 1,5MM
+",0,Almox Mont Carretas
+Plataforma,CAIXA 1 ,425734,TRANSV SUP CILINDRO    PLAT  CBHM,0,Almox Mont Carretas
+Plataforma,CAIXA 3,030614,REFORÇO INTERNO DO ENGATE -  PLATAFORMA CBHM/CBH,0,Almox Mont Carretas
+Plataforma,CAIXA 4,030614,REFORÇO INTERNO DO ENGATE -  PLATAFORMA CBHM/CBH,0,Almox Mont Carretas
+Plataforma,CAIXA 5,032904,OLHAL DE ELEVACÃO - TANQUE SIMPLES    FTC,0,Almox Mont Carretas
+Plataforma,CAIXA 6,029965,"REFORÇO APOIO DA TAMPA - CAÇAMBA CBH 6,0 C/ ABERTURA LATERAL",0,Almox Mont Carretas
+Plataforma,CAIXA 6,029964,"APOIO DA TAMPA - CAÇAMBA CBH 6,0 C/ ABERTURA LATERAL",0,Almox Mont Carretas
+Plataforma,D,030384,CHAPEAM LAT - CAÇAMBA SIMPLES GRAN/FORR (M17) CBH,0,Almox Mont Carretas
+Plataforma,E,480009,ANILHO MOLA POCIS       CBH/CBHM,0,Almox Mont Carretas
+Plataforma,E,425795,APOIO BUCHA GUIA    CBHM,0,Almox Mont Carretas
+Plataforma,E,031206B,COMPLEMENTO DO CHAPEAMENTO FRONTAL - CAÇAMBA M18,0,Almox Mont Carretas
+Plataforma,E,031206,CHAPEAMENTO FRONTAL - CAÇAMBA M18,0,Almox Mont Carretas
+Plataforma,E,031204,REFORÇO LATERAL DIANTEIRO - CAÇAMBA M18,0,Almox Mont Carretas
+Plataforma,E,030373,TRANSVERSINA INTERMEDIÁRIA CENTRAL [CAÇAMBA - CBH M17],0,Almox Mont Carretas
+Plataforma,E,018016,REFORCO SUPORTE COL CEN (6000) CBHM,0,Almox Mont Carretas
+Plataforma,F,460680,TRANSV CENTRAL - PLAT (3500/5000) CBHM,0,Almox Mont Carretas
+Plataforma,F,032552,TRANSVERSINA TRASEIRA [PLATAFORMA - CBHM 4500],0,Almox Mont Carretas
+Plataforma,G,450856,REFORCO CENTRAL - PLATAF (6000) CBHM,0,Almox Mont Carretas
+Plataforma,G,409960,TRANSVERSINA CENTRAL - PLAT CBHM4500,0,Almox Mont Carretas
+Plataforma,G,030810,TRANSV N° 4 - PLAT 6000 2E CBHM M17,0,Almox Mont Carretas
+Plataforma,G,030336,APOIO ARTICULAÇÃO - PLATAFORMA M17 (4T) CBH/CBHM,0,Almox Mont Carretas
+Plataforma,H,450832,PISO DIREITO          - PLATAF (6000) CBHM,0,Almox Mont Carretas
+Plataforma,H,031487,PISO ESQUERDO - PLATAFORMA CBHM 6000 CAFEEIRA,0,Almox Mont Carretas
+Plataforma,H,031486,PISO DIREITO - PLATAFORMA CBHM 6000 CAFEEIRA,0,Almox Mont Carretas
+Plataforma,H,030616,PISO ESQUERDO [PLATAFORMA - CBHM 4500],0,Almox Mont Carretas
+Plataforma,H,030341,PISO DIR PLATAF M17 (3500/5000/8000) CBHM,0,Almox Mont Carretas
+Plataforma,H,030341,PISO DIR PLATAF M17 (3500/5000/8000) CBHM,0,Almox Mont Carretas
+Plataforma,H,030339,PISO ESQ PLATAF M17 (3500/5000/8000) CBHM,0,Almox Mont Carretas
+Plataforma,H,018181,PISO ESQUERDO   PLATAF (6000) CBHM,0,Almox Mont Carretas
+Plataforma,I,460709,TRANSV FRONTAL - PLAT (3500/5000) CBHM,0,Almox Mont Carretas
+Plataforma,I,450870,LONGARINA - PLATAF (6000) CBHM,0,Almox Mont Carretas
+Plataforma,I,450820,REFORCO DIANT - PLATAF (6000) CBHM,0,Almox Mont Carretas
+Plataforma,I,450819,TRANSV N1 - PLATAF (6000) CBHM,0,Almox Mont Carretas
+Plataforma,I,446841,REFORCO              CHASSI (M98)  F4/6,0,Almox Mont Carretas
+Plataforma,I,425849,COMPLEM TRANSV TRASEIRA   CBHM,0,Almox Mont Carretas
+Plataforma,I,425801,GUIA DA PLATAFORMA    CBHM,0,Almox Mont Carretas
+Plataforma,I,424780,TRANSVERSINA MENOR   CBHM,0,Almox Mont Carretas
+Plataforma,I,410251,ENGATE DOBRAD - CHASSI    C2,0,Almox Mont Carretas
+Plataforma,I,030645,REFORÇO TRANSV DIANTEIRA - PLATAFORMA CBHM M17,0,Almox Mont Carretas
+Plataforma,J,460679,TRANSV MENOR - PLAT (3500/5000)  CBHM,0,Almox Mont Carretas
+Plataforma,J,450868,SUP COL CENTRAL - PLATAF (6000) CBHM,0,Almox Mont Carretas
+Plataforma,J,450790,TRANSV N3 - PLATAF (6000) CBHM,0,Almox Mont Carretas
+Plataforma,J,425783,BUCHA GUIA    CBHM,0,Almox Mont Carretas
+Plataforma,J,425760,SUPORTE DO CILINDRO       CBHM,0,Almox Mont Carretas
+Plataforma,J,425187,REFORÇO CENTRAL    CBHM,0,Almox Mont Carretas
+Plataforma,J,409959,SUPORTE DA COLUNA          CBHM,0,Almox Mont Carretas
+Plataforma,J,032553,TRANSVERSINA TRASEIRA [PLATAFORMA - CBHM 5000/6000],0,Almox Mont Carretas
+Plataforma,J,031484,LONGARINA - PLATAFORMA CBHM 6000 CAFEEIRA,0,Almox Mont Carretas
+Plataforma,J,030649,APOIO DA ARTICULAÇÃO  CBHM 4500 M17,0,Almox Mont Carretas
+Plataforma,J,030338,MANCAL - PLATAFORMA M17 (4T) CBH/CBHM,0,Almox Mont Carretas
+Plataforma,J,030334,LONGARINA DA PLATAFORMA M17    CBHM,0,Almox Mont Carretas
+Plataforma,K,490313,REFORÇO TRAVA T TRAS -  ACESS  CBHM,0,Almox Mont Carretas
+Plataforma,K,425874,PINO DA TRAVA         CBHM,0,Almox Mont Carretas
+Plataforma,K,026416,CORPO DA TRAVA CBH/CBHM 4/6,0,Almox Mont Carretas
+Plataforma,K,260826,BUCHA FLUTUANTE PARA FEIXE DE MOLAS,0,Almox Mont Carretas
+Plataforma,K,238405,MOLA DA TRAVA DA CBHM,0,Almox Mont Carretas
+Plataforma,K,222148,CONTRA PINO  3/16 X 1.1/2,0,Almox Mont Carretas
+Plataforma,L,034698,REFORÇO INFERIOR 1 [CAÇAMBA - CBH],0,Almox Mont Carretas
+Plataforma,L,031239,DOBRADIÇA HORIZONTAL CBH/CBHM (M18),0,Almox Mont Carretas
+Plataforma,L,030591,FECHAM TRAS CENTRAL - CAÇAMBA SIMPLES GRAN/FORR (M17) CBH ABERTURA LATERAL,0,Almox Mont Carretas
+Plataforma,L,030456,TRANSV. INTERM. CENTRAL,0,Almox Mont Carretas
+Plataforma,L,030373,TRANSVERSINA INTERMEDIÁRIA CENTRAL [CAÇAMBA - CBH M17],0,Almox Mont Carretas
+Plataforma,L,030368,FECHAM DA TRANSVERSINA - CAÇAMBA SIMPLES GRAN/FORR (M17),0,Almox Mont Carretas
+Plataforma,L,030366,TRANSVERSINA INFERIOR MAIOR [CAÇAMBA - CBH M17],0,Almox Mont Carretas
+Plataforma,L,022263,COMPLEM. TRANSV. INTERM. CENTRAL - CAÇAMBA GRAN/FORR (M12) CBH,0,Almox Mont Carretas
+Plataforma,M,031556,REFORCO CENTRAL - PLATAF (6000) CBHM CAFEEIRA,0,Almox Mont Carretas
+Plataforma,M,031508,"LONGARINA - CHASSI DA CAÇAMBA - CBH 6,0T 7M³",0,Almox Mont Carretas
+Plataforma,N,030547,FECHAMENTO DO SUPORTE,0,Almox Mont Carretas
+Plataforma,N,030512,"TRANSVERSINA INTERM. - CHASSI  DA CAÇAMBA - CBH 6,0 2E",0,Almox Mont Carretas
+Plataforma,N,030506,TRANSVERSINA DIANT/TRAS - CHASSI DA PLATAFORMA CBH/CBHM 6T 2E,0,Almox Mont Carretas
+Plataforma,N,030501,REFORÇO LONGARINA,0,Almox Mont Carretas
+Plataforma,N,030500,LONGARINA - CBH M17 2 EIXOS,0,Almox Mont Carretas
+Plataforma,N,028757,REFORÇO DE ARTICULAÇÃO- CBHM,0,Almox Mont Carretas
+Plataforma,N,025473,BUCHA SUPERIOR - CHASSI DA CAÇAMBA - CBH 8T (M13),0,Almox Mont Carretas
+Plataforma,N,025401,SUPORTE DO CILINDRO - CHASSI DA CAÇAMBA CBH (M13) 8T,0,Almox Mont Carretas
+Plataforma,SETOR,494665,PINO FUEIRO       CBHM,0,Almox Mont Carretas
+Plataforma,SETOR,409935,TRANSV FRONTAL - PLAT    CBHM4500,0,Almox Mont Carretas
+Plataforma,SETOR,240493,FECHO RÁP. P/CARR. LE CÓD.ESP481E,0,Almox Mont Carretas
+Plataforma,SETOR,034697,REFORÇO INFERIOR 2 [CAÇAMBA - CBH],0,Almox Mont Carretas
+Plataforma,SETOR,034252,REFORÇO INFERIOR 1 [PLATAFORMA - CBHM],0,Almox Mont Carretas
+Plataforma,SETOR,030544,"CHAPEAMENTO LATERAL [CAÇAMBA - CBH6,0 M17]",0,Almox Mont Carretas
+Plataforma,O,032440,COMPLEMENTO DO FECHAM. LAT. TRAS. [CAÇAMBA SIMPLES - CBH M21],0,Almox Mont Carretas
+Plataforma,O,032439,FECHAMENTO LATERAL TRASEIRO [CAÇAMBA SIMPLES - CBH M21],0,Almox Mont Carretas
+Plataforma,P,034250,REFORÇO INFERIOR 3 [PLATAFORMA - CBHM],0,Almox Mont Carretas
+Plataforma,P,034249,REFORÇO INFERIOR 2 [PLATAFORMA - CBHM],0,Almox Mont Carretas
+Plataforma,P,032317,COMPL FECHAMENTO FUEIRO REFORÇO DIANTEIRO - CAÇAMBA M18,0,Almox Mont Carretas
+Plataforma,P,031207,FECHAMENTO FUEIRO REFORÇO DIANTEIRO - CAÇAMBA M18,0,Almox Mont Carretas
+Plataforma,P,031203,REFORÇO INTERNO DIANTEIRO - CAÇAMBA M18,0,Almox Mont Carretas
+Plataforma,P,030598,REFORÇO LATERAL EXTERNO CBH (M17) ABERTURA LAT.,0,Almox Mont Carretas
+Plataforma,P,030380,REFORÇO INTERNO TRASEIRO - CAÇAMBA SIMPLES GRAN/FORR (M17) CBH,0,Almox Mont Carretas
+Plataforma,P,012919,REFORCO EXTERNO          CACAMBA    CBHF,0,Almox Mont Carretas
+Estruturas,A,029957,"LONGARINA - PLATAFORMA S3,20ER",0,Almox Mont Carretas
+Estruturas,A,033021,CANTONEIRA TRASEIRA [PLAT. FA2 M21],0,Almox Mont Carretas
+Estruturas,B,033014,TRANSVERSINA DIANTEIRA [PLATAFORMA METÁLICA - FA6F],0,Almox Mont Carretas
+Estruturas,B,032685,TRANSVERSINA DIANTEIRA - PLATAFORMA - MANGA M22,0,Almox Mont Carretas
+Estruturas,B,033016,TRANSVERSINA INTERMEDIARIA [PLATAFORMA METÁLICA - FA6F],0,Almox Mont Carretas
+Estruturas,B,033015,TRANSVERSINA TRASEIRA [PLATAFORMA METÁLICA - FA6F],0,Almox Mont Carretas
+Estruturas,C,032689,TRANSVERSINA INTERMEDIARIA - PLATAFORMA - MANGA M22,0,Almox Mont Carretas
+Estruturas,C,032687,TRANSVERSINA TRASEIRA - PLATAFORMA - MANGA M22,0,Almox Mont Carretas
+Estruturas,CAIXA 1,025892,GANCHO DA PLATAFORMA - CARROCERIA METÁLICA M14,0,Almox Mont Carretas
+Estruturas,CAIXA 2,033064,FECHAMENTO LATERAL - PLATAFORMA - MANGA M22,0,Almox Mont Carretas
+Estruturas,CAIXA 2,033349,REFORÇO DA LONGARINA [PLATAFORMA - FA2A M22],0,Almox Mont Carretas
+Estruturas,D,034153,"TRANSVERSINA INTERMEDIÁRIA (Nº1 e 3) - PLATAFORMA S4,0ER M23",0,Almox Mont Carretas
+Estruturas,D,034151,"TRANSVERSINA DIANTEIRA - PLATAFORMA S4,0ER M23",0,Almox Mont Carretas
+Estruturas,D,032544,REFORÇO DA TRANSV. TRASEIRA [PLATAFORMA - F6C M22],0,Almox Mont Carretas
+Estruturas,D,034152,"TRANSVERSINA TRASEIRA - PLATAFORMA S4,0ER M23",0,Almox Mont Carretas
+Estruturas,E,032460,TRANSVERSINA TRASEIRA _ ESTRUTURA DA PLATAFORMA - UVA M21,0,Almox Mont Carretas
+Estruturas,E,032458,TRANSVERSINA DIANTEIRA _ ESTRUTURA DA PLATAFORMA _ UVA M21,0,Almox Mont Carretas
+Estruturas,E,033636,TRANSVERSINA DIANTEIRA [PLATAFORMA - F6C M23],0,Almox Mont Carretas
+Estruturas,F,032459,TRANSVERSINA INTERMEDIARIA [PLATAFORMA - FA2 M21],0,Almox Mont Carretas
+Estruturas,G,033063,CANTONEIRA TRASEIRA - PLATAFORMA - MANGA M22,0,Almox Mont Carretas
+Estruturas,G,032688,LONGARINA - PLATAFORMA - MANGA M22,0,Almox Mont Carretas
+Estruturas,G,032540,LONGARINA [PLATAFORMA - F6C M22],0,Almox Mont Carretas
+Estruturas,G,032457,LONGARINA - ESTRUTURA DA PLATAFORMA - UVA M21,0,Almox Mont Carretas
+Estruturas,G,033013,LONGARINA [PLATAFORMA METÁLICA - FA6F],0,Almox Mont Carretas
+Estruturas,G,029662,"LONGARINA - PLATAFORMA S4,0ER",0,Almox Mont Carretas
+Estruturas,PALETE F4,033017,PISO [PLATAFORMA METÁLICA - FA6F],0,Almox Mont Carretas
+Estruturas,PALETE F4,025554,"CORPO DA PLATAFORMA - PLATAFORMA - S4,0M",0,Almox Mont Carretas
+Estruturas,PALETE F4,032690,PISO - PLATAFORMA - MANGA M22,0,Almox Mont Carretas
+Estruturas,PALETE F4,032335,PISO_ PLATAFORMA _ FA UVA M21,0,Almox Mont Carretas
+Estruturas,PALETE F4,032335,PISO_ PLATAFORMA _ FA UVA M21,0,Almox Mont Carretas
+Estruturas,SETOR,025555,"TRANSVERSINA DIANTEIRA- PLATAFORMA - S4,0M",0,Almox Mont Carretas
+Estruturas,SETOR,025556,"TRANSVERSINA INTERMED - PLATAFORMA - S3,2/4,0M",0,Almox Mont Carretas
+Estruturas,SETOR,025557,"TRANSVERSINA TRASEIRA- PLATAFORMA - S4,0M",0,Almox Mont Carretas
+Estruturas,SETOR,025687,"CORPO DA PLATAFORMA - S3,20M",0,Almox Mont Carretas
+Estruturas,SETOR,033637,TRANSVERSINA CENTRAL [PLATAFORMA - F6C M22.1],0,Almox Mont Carretas
+Estruturas,SETOR,033641,REFORÇO DA TRANSVERSINA TRAS [PLATAFORMA - F6C M22],0,Almox Mont Carretas
+Estruturas,SETOR,410251,ENGATE DOBRAD - CHASSI    C2,0,Almox Mont Carretas
+Estruturas,SETOR,465793,REFORCO ( PADRAO TANQUE ) FT,0,Almox Mont Carretas
+Estruturas,SETOR,032543,TRANSVERSINA TRASEIRA [PLATAFORMA - F6C M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033408,FECHAMENTO DA PLACA [CHASSI SIMPLES  - FT12500 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,032818,REFORÇO INTERNO TRASEIRO [CAÇAMBA CBH9 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033947,PLACA DE FIXAÇÃO [BANDEJA - FT10500 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033223,FLANGE [TUBULAÇÃO DA BOMBA - FTD5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033687,FECHAMENTO DO TUBO [EIXO BALANCIM - FT12500 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033404,FECHAMENTO DO SUPORTE LATERAL [CHASSI SIMPLES  - FT12500 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033406,SUPORTE LATERAL [CHASSI SIMPLES  - FT12500 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033076,FECHAMENTO LATERAL TRASEIRO INFERIOR [CAÇAMBA - CBH9 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,032101,REFORÇO LATERAL DA SAPATA [ TANQUE SIMPLES - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033711,ORELHA PARA KIT INCENDIO [ASSOALHO COMPLETO - FT12500],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033134,PLACA [DISPERSOR - TDV 5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033683,FECHAMENTO [EIXO TRASEIRO - FT10500 2E M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,032813,FECHAM DA TRANSVERSINA [CAÇAMBA CBH9 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033713,ORELHA DE FIXAÇÃO [SUPORTE DO CANHÃO - FT12500 M23],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033402,SAPATA [CHASSI SIMPLES - FT12500 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033611,REFORÇO DO FECHAMENTO TRASEIRO [CORPO DO TANQUE - FT12500 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,028938,PINO DA LUVA DE UNIÃO - ENGATE CBH 8T,0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,032818,REFORÇO INTERNO TRASEIRO [CAÇAMBA CBH9 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033935,TUBO DO ALÍVIO [TANQUE SIMPLES - FT12500 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,034396,BUCHA [COMPLEMENTO DA TUBULAÇÃO DE DISPERSÃO - FT12500 M23],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033291,BUCHA [5A RODA - CBH12],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,032099,COLARINHO TRASEIRO [TANQUE SIMPLES - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,033926,ORELHA BANDEJA [CHASSI SIMPLES - FT12500 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,B,035804,CANTONEIRA CENTRAL [PLATAFORMA - FA5],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,C,033290,CORPO [5 RODA - CBH12 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,C,032816,FECHAMENTO LATERAL TRASEIRO SUPERIOR [CAÇAMBA - CBH9 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,C,033189,FUEIRAO CENTRAL [CAÇAMBA SIMPLES - CBH12 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,C,032832,SUPORTE TRASEIRO [CHASSI CBH9],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,025424,MANCAL ARTICULAÇÃO - CHASSI/5 RODA        CBH-8,0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,025434,BUCHA INF SUP EIXO CBH-8,0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,025446,BUCHA DA ARTICULAÇÃO - CHASSI DA CAÇAMBA CBH (M13) 8T,0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,025454,TUBO PLACA - CHASSI        CBH-8,0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,025457,PINO DE ARTICULAÇÃO DA CAÇAMBA CBH8,0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,025465,BUCHA DO MANCAL DO CILINDRO CBH8,0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,025472,PINO DO CILINDRO CBH8,0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,025473,BUCHA SUPERIOR - CHASSI DA CAÇAMBA - CBH 8T (M13),0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,025543,BUCHA DE DESGASTE - CBH 8T,0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,025866,PROTEÇÃO DO PITO - RODA CBH 8T,0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,026019,TENSOR DA CORRENTE - CAÇAMBA - CBH8,0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,026393,ELO DA AMARRA DA CORRENTE - CAÇAMBA - CBH8,0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,026626,CORRENTE DO ENGATE [ROBUSTA 12T],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032074,CALOTA [TAMPA SUPERIOR - TDV 5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032075,ANEL EXTERNO [TAMPA SUPERIOR - TDV 5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032076,ANEL INTERNO [TAMPA SUPERIOR - TDV 5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032091,CALOTA [TAMPA TRASEIRA - TDV 5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032092,ANEL INTERNO [TAMPA TRASEIRA - TDV 5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032093,ANEL EXTERNO [TAMPA TRASEIRA - TDV 5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032098,COLARINHO SUPERIOR [TANQUE SIMPLES - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032100,SUPORTE DA SAPATA [TANQUE SIMPLES - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032103,FECHAMENTO TRASEIRO [CORPO DO TANQUE - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032104,PLACA DE REFORÇO INTERNO [CORPO DO TANQUE - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032105,REFORÇO DIAGONAL INTERNO [CORPO DO TANQUE - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032107,TUBO VERTICAL [TUBULAÇAO DE RETORNO - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032108,TUBO INFERIOR [TUBULAÇAO DE RETORNO - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032113,ORELHA RETANGULAR [TANQUE SIMPLES - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032115,ORELHA DO COLARINHO [TANQUE SIMPLES - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032127,BUCHA [TUBULAÇAO DE DISPERSAO - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032136,TUBO AUXILIAR MENOR [TUBULAÇAO DE RETORNO - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032606,DEGRAU [ESCADA - FTC M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032706,SUPORTE FRONTAL [CHASSI - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032707,FECHAMENTO DIANTEIRO [CHASSI - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032709,FECHAMENTO DO SUPORTE FRONTAL [CHASSI - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032710,REFORÇO SUPORTE FRONTAL [CHASSI - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032714,SUPORTE DO ENGATE [CHASSI - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032718,ORELHA DE FIXAÇÃO [TANQUE SIMPLES - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032719,REFORÇO DA ORELHA [TANQUE SIMPLES - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032745,ALÇA - [TRAVA DE BASCULAMENTO FA4FB],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032933,REFORÇO EIXO BALANCIN [EIXO BALANCIM - CBH 9],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032949,CORPO DO ESPAÇADOR [CBH9 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032988,CORRIMAO MAIOR [GRADIL-TDV5000 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032989,COLUNA LATERAL [GRADIL - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032990,COLUNA CENTRAL [GRADIL - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,032991,CORRIMAO MENOR  [GRADIL - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033103,ALÇA PARA MANGUEIRA DE SUSPIRO [TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033106,PINO DA ORELHA DO COLARINHO [TANQUE SIMPLES - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033109,BUCHA DA MANIVELA [TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033110,PINO DA MANIVELA [TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033122,CORRIMAO [ESCADA - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033128,CORPO DO ESGUICHO [ESGUICHO - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033136,ORELHA [ESGUICHO - TDV 5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033228,TUBO AUXILIAR [TUBULAÇAO DA BOMBA - TDV5000],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033264,CORPO TRAVA DA TAMPA TRASEIRA [CBH12 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033265,REFORÇO TRAVA DA TAMPA TRASEIRA [CBH12 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033266,BUCHA TRAVA DA TAMPA TRASEIRA [CBH12 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033433,PINO DO IÇAMENTO [CBH12 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033532,MANGUEIRA DE SAÍDA 2m [FT10500/12500],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033551,ORELHA DO SINALIZADOR [FT10500 M22],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033897,CORPO DA SOBRETAMPA LATERAL [CBH12],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,033927,APOIO DE MANGUEIRA (CHAPA) [FT10500],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,034008,CORPO DO TUBO HIDRÁULICO [CBH12],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,034011,CORPO DO TUBO HIDRÁULICO [CBH9-2E],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,034464,"MANGUEIRA DO CANHÃO 3"" 1,3m [FT10500/12500]",0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,034889,"MANGUEIRA DE PRESSÃO 0,60m [FTD5000]",0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,035438,BORRACHA DE VEDAÇÃO DO CANHÃO [FT10500-2E],0,Almox Mont Carretas
+ARONILDO - PLAT/CAÇ/TANQ - ESP,SETOR,035439,BORRACHA DE VEDAÇÃO DA BOMBA [FT10500-2E],0,Almox Mont Carretas
