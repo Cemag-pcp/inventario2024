@@ -11,13 +11,10 @@ os.makedirs(output_dir, exist_ok=True)
 # Caminho para o arquivo modelo
 template_path = "excel_dados_inventario/Lista - Inventário 2024.xlsx"
 
-cemag_img = "app/static/img/logo-cemagL.png"
-qr_code_img = "app/static/img/QRCode_Fácil.png"
-
 def generate_inventory_lists():
     # Agrupando locais por (nome, almoxarifado)
     agrupados = {}
-    locais = Local.query.filter_by(almoxarifado='Central').order_by(Local.estante).all()
+    locais = Local.query.order_by(Local.estante).all()
 
     # Agrupei dessa forma pois existem locais com o mesmo nome no mesmo almoxarifado, mas possui estantes difentes
     # então agrupei para evitar que fosse feita uma lista por estante
