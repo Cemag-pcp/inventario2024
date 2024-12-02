@@ -4,8 +4,8 @@ async function carregarDados() {
 
     // Inicializa o DataTables se ainda não foi inicializado
     if (!$.fn.DataTable.isDataTable('#tabela-pecas')) {
-        $('#tabela-pecas').DataTable({
-            data: data, // Passa os dados diretamente para o DataTables
+        const table = $('#tabela-pecas').DataTable({
+            data: data,
             columns: [
                 { data: 'almoxarifado' },
                 { data: 'local' },
@@ -15,7 +15,7 @@ async function carregarDados() {
                     data: 'peca_fora_lista',
                     render: function (data) {
                         return data === false ? 'Não' : 'Sim';
-                    } 
+                    }
                 },
                 {
                     data: 'quantidade_sistema',
@@ -41,16 +41,19 @@ async function carregarDados() {
             },
             pageLength: 10,
             lengthChange: false,
-            order: [[6, 'desc']] // Ordena pela coluna "Diferença"
+            order: [[6, 'desc']]
+        });
+
+        // Adicionar filtro personalizado para Almoxarifado
+        $('#filtro-almoxarifado').on('keyup', function () {
+            table.column(0).search(this.value).draw(); // Filtra na coluna de índice 0 (Almoxarifado)
         });
     } else {
-        // Atualiza os dados se o DataTables já estiver inicializado
         const table = $('#tabela-pecas').DataTable();
-        table.clear(); // Limpa os dados existentes
-        table.rows.add(data); // Adiciona os novos dados
-        table.draw(); // Redesenha a tabela
+        table.clear();
+        table.rows.add(data);
+        table.draw();
     }
 }
 
-// Chama a função para carregar os dados
 carregarDados();
